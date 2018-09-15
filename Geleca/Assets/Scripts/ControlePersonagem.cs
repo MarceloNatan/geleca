@@ -6,9 +6,10 @@ public class ControlePersonagem : MonoBehaviour {
     public Rigidbody2D rb;
     public float velocidade = 7;
     //public float velPulo = 7;
-	// Use this for initialization
+    // Use this for initialization
+    
 	void Start () {
-		
+       
 	}
 	
 	// Update is called once per frame
@@ -21,4 +22,9 @@ public class ControlePersonagem : MonoBehaviour {
 
         rb.AddForce(movimentacao * velocidade);
 	}
+  
+    void Update()
+    {
+
+    }
 }
