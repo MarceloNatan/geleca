@@ -7,6 +7,11 @@ public class MapeamentoBotoes : MonoBehaviour {
     GameObject btnB;
     GameObject btnX;
     GameObject btnY;
+    GameObject btnLB;
+    GameObject btnRB;
+    GameObject btnLT;
+    GameObject btnRT;
+    
     // Use this for initialization
     void Start () {
 
@@ -22,8 +27,17 @@ public class MapeamentoBotoes : MonoBehaviour {
         btnY = GameObject.Find("btnY");
         btnY.SetActive(false);
 
+        btnLB = GameObject.Find("EsquerdoFrente");
+        btnLB.SetActive(false);
 
+        btnRB = GameObject.Find("DireitoFrente");
+        btnRB.SetActive(false);
 
+        btnLT = GameObject.Find("LT");
+        btnLT.SetActive(false);
+
+        btnRT = GameObject.Find("RT");
+        btnRT.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -83,6 +97,57 @@ public class MapeamentoBotoes : MonoBehaviour {
             }
         }
         //------------------------------------------------------
+
+
+        if (Input.GetKeyDown("joystick button 4"))
+        {
+            btnLB.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetKeyUp("joystick button 4"))
+            {
+                btnLB.SetActive(false);
+            }
+        }
+
+        //------------------------------------------------------
+        if (Input.GetKeyDown("joystick button 5"))
+        {
+            btnRB.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetKeyUp("joystick button 5"))
+            {
+                btnRB.SetActive(false);
+            }
+        }
+        //------------------------------------------------------
+        if (Input.GetAxis("GatilhoLT")==1)
+        {
+            btnLT.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("GatilhoLT") == 0)
+            {
+                btnLT.SetActive(false);
+            }
+        }
+        //------------------------------------------------------
+        if (Input.GetAxis("GatilhoRT") == 1)
+        {
+            btnRT.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("GatilhoRT") == 0)
+            {
+                btnRT.SetActive(false);
+            }
+        }
+
     }
 
 
