@@ -17,20 +17,31 @@ public class direcaoPulo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        float movimentoHorizontal = Input.GetAxis("Horizontal");
 
-         minhaPosicao = new Vector2(transform.position.x, transform.position.y);
-        this.transform.position = PosPlayer.transform.position;
+        float movimentoVertical = Input.GetAxis("Vertical");
+
+        minhaPosicao = new Vector2(transform.position.x, transform.position.y);//posicao atual
+
+        this.transform.position = PosPlayer.transform.position;//Seta pega posicção do jogador para ficar anexada a ele sempre
+
         //-------------------- Rotação da seta de direção do salto
-        posicaoMouse = Input.mousePosition;
-        posicaoMouse = Camera.main.ScreenToWorldPoint(posicaoMouse);
-        Vector2 direcao = new Vector2(posicaoMouse.x - transform.position.x , 
-                                      posicaoMouse.y - transform.position.y);
-
-        transform.up = direcao;
+        // posicaoMouse = Input.mousePosition;
+        // posicaoMouse = Camera.main.ScreenToWorldPoint(posicaoMouse);
+        //   Vector2 direcao = new Vector2(posicaoMouse.x - transform.position.x , 
+        //                               posicaoMouse.y - transform.position.y);
+        Vector2 movimentacao = new Vector2(movimentoHorizontal, movimentoVertical);
+        transform.up = movimentacao ;
 
 
         //-------------------- Linha de Debug do jogador até o ponteiro do mouse
         Color cor = new Color(201, 0, 0);
         Debug.DrawLine(minhaPosicao, posicaoMouse, cor);
+
+        //========
+
+
+
+       
     }
 }

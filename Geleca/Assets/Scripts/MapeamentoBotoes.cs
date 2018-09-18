@@ -7,11 +7,29 @@ public class MapeamentoBotoes : MonoBehaviour {
     GameObject btnB;
     GameObject btnX;
     GameObject btnY;
+
     GameObject btnLB;
     GameObject btnRB;
-    GameObject btnLT;
+   GameObject btnLT;
     GameObject btnRT;
-    
+
+    GameObject stickDireitoDireita;
+    GameObject stickDireitoEsquerda;
+    GameObject stickDireitoCima;
+    GameObject stickDireitoBaixo;
+
+    GameObject stickEsquerdoDireita;
+    GameObject stickEsquerdoEsquerda;
+    GameObject stickEsquerdoCima;
+    GameObject stickEsquerdoBaixo;
+
+    GameObject direcionalDireito;
+    GameObject direcionalEsquerdo;
+    GameObject direcionalCima;
+    GameObject direcionalBaixo;
+
+
+
     // Use this for initialization
     void Start () {
 
@@ -38,6 +56,47 @@ public class MapeamentoBotoes : MonoBehaviour {
 
         btnRT = GameObject.Find("RT");
         btnRT.SetActive(false);
+
+        //============================================================================
+
+        stickDireitoDireita  = GameObject.Find("analogicoDireitoDireita");
+        stickDireitoDireita.SetActive(false);
+
+        stickDireitoEsquerda = GameObject.Find("analogicoDireitoEsquerda");
+        stickDireitoEsquerda.SetActive(false);
+
+        stickDireitoCima     = GameObject.Find("analogicoDireitoCima");
+        stickDireitoCima.SetActive(false);
+
+        stickDireitoBaixo    = GameObject.Find("analogicoDireitoBaixo");
+        stickDireitoBaixo.SetActive(false);
+        //XXXXXXXX
+        stickEsquerdoDireita  = GameObject.Find("analogicoEsquerdoDireita");
+        stickEsquerdoDireita.SetActive(false);
+
+        stickEsquerdoEsquerda = GameObject.Find("analogicoEsquerdoEsquerda");
+        stickEsquerdoEsquerda.SetActive(false);
+
+        stickEsquerdoCima     = GameObject.Find("analogicoEsquerdoCima");
+        stickEsquerdoCima.SetActive(false);
+
+        stickEsquerdoBaixo    = GameObject.Find("analogicoEsquerdoBaixo");
+        stickEsquerdoBaixo.SetActive(false);
+
+        //============================================================================
+
+        direcionalDireito = GameObject.Find("DirDireito");
+        direcionalDireito.SetActive(false);
+
+        direcionalEsquerdo = GameObject.Find("DirEsquerdo");
+        direcionalEsquerdo.SetActive(false);
+
+        direcionalCima = GameObject.Find("DirUp");
+        direcionalCima.SetActive(false);
+
+        direcionalBaixo = GameObject.Find("DirDown");
+        direcionalBaixo.SetActive(false);
+
     }
 	
 	// Update is called once per frame
@@ -147,7 +206,64 @@ public class MapeamentoBotoes : MonoBehaviour {
                 btnRT.SetActive(false);
             }
         }
+        //------------------------------------------------------
+        if (Input.GetAxis("DirDireito") > 0.19)
+        {
+            direcionalDireito.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("DirDireito") == 0)
+            {
+                direcionalDireito.SetActive(false);
+            }
+        }
+        //------------------------------------------------------
+        if (Input.GetAxis("DirEsquerdo") < 0)
+        {
+            direcionalEsquerdo.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("DirEsquerdo") == 0)
+            {
+                direcionalEsquerdo.SetActive(false);
+            }
+        }
 
+        //------------------------------------------------------
+        if (Input.GetAxis("DirCima") > 0.19)
+        {
+            direcionalCima.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("DirCima") == 0)
+            {
+                direcionalCima.SetActive(false);
+            }
+        }
+        //------------------------------------------------------
+        if (Input.GetAxis("DirBaixo") < 0)
+        {
+            direcionalBaixo.SetActive(true);
+        }
+        else
+        {
+            if (Input.GetAxis("DirBaixo") == 0)
+            {
+                direcionalBaixo.SetActive(false);
+            }
+        }
+        //----------------------------------------------------
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            stickEsquerdoEsquerda.SetActive(false);
+
+        } else if (Input.GetAxis("Horizontal") == 0)
+        {
+            stickEsquerdoEsquerda.SetActive(false);
+        }
     }
 
 
