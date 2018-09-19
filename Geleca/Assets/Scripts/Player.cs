@@ -98,6 +98,13 @@ public class Player : MonoBehaviour {
         Debug.Log(collision.gameObject.tag);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "ProjetilInimigo")
+        {
+            Destroy(collision.gameObject,0);
+        }
+    }
 
 
 }
