@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using System;
 
 public class Player : MonoBehaviour {
 
@@ -8,6 +9,8 @@ public class Player : MonoBehaviour {
 
     [SerializeField]
     private GameObject tiro;
+
+    private byte countTiro = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -24,13 +27,22 @@ public class Player : MonoBehaviour {
 
         sbyte direcao = 1;
 
-        if(Input.GetAxis("Horizontal") > 0.01f)
+        //GetComponent<Animator>().SetInteger("status", 0);
+        GetComponent<Animator>().SetInteger("status", 0);
+
+        if (Input.GetAxis("Horizontal") > 0.01f)
         {
-            direcao = 1;
+            direcao = 2;
+            
             if(jumping)
                 GetComponent<Rigidbody2D>().AddForce(new Vector3(3, 0, 0));
             else
                 transform.position += new Vector3(0.05f, 0, 0);
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("status", 1);
+            }
         }
         else if(Input.GetAxis("Horizontal")< -0.01f)
         {
@@ -39,6 +51,11 @@ public class Player : MonoBehaviour {
                 GetComponent<Rigidbody2D>().AddForce(new Vector3(-3, 0, 0));
             else
                 transform.position -= new Vector3(0.05f, 0, 0);
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("status", 1);
+            }
         }
 
         if(Input.GetAxis("Jump") != 0 && !jumping)
@@ -47,12 +64,25 @@ public class Player : MonoBehaviour {
             jumping = true;
         }
 
-        if(Input.GetAxis("Fire1")>0)
+        if(Input.GetAxis("Fire1")>0 && countTiro == 0)
         {
             GameObject t = Instantiate(tiro, transform.position, new Quaternion());
+            GetComponent<Animator>().SetInteger("status", 2);
 
             t.GetComponent<Tiro>().direcao = direcao;
+
+            Destroy(t, 1f);
+
+            countTiro++;
         }
+
+        if(countTiro != 0)
+        {
+            countTiro = (byte)((countTiro+1) % 10);    
+        }
+
+
+        
 
         //Debug.Log(Input.GetAxis("Jump"));
     }
