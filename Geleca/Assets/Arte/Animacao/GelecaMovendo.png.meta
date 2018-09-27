@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 331d73f4cdc7e7144b5fcdb68c27b65c
+guid: c1abed075b0e9e8458e4932f2d3b0288
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Personagem_Caminhada_0
-    21300002: Personagem_Caminhada_1
-    21300004: Personagem_Caminhada_2
+    21300000: GelecaMovendo_0
+    21300002: GelecaMovendo_1
+    21300004: GelecaMovendo_2
+    21300006: GelecaMovendo_3
+    21300008: GelecaMovendo_4
+    21300010: GelecaMovendo_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -131,61 +134,101 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Personagem_Caminhada_0
+      name: GelecaMovendo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 365
-        width: 440
-        height: 365
+        y: 363
+        width: 881
+        height: 363
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 352862c5dbaf9a74fb65163c68b587e2
+      spriteID: 07d5807b821b4e743b4fa51e8c87158f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_Caminhada_1
+      name: GelecaMovendo_1
       rect:
         serializedVersion: 2
-        x: 440
-        y: 365
-        width: 440
-        height: 365
+        x: 881
+        y: 363
+        width: 881
+        height: 363
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e189c63fe2880448bef9b4361d294a
+      spriteID: 26c285e74377f4a4099018f8d6dddf27
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Personagem_Caminhada_2
+      name: GelecaMovendo_2
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 363
+        width: 881
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ae22806627811468d20880e1029d4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GelecaMovendo_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 440
-        height: 365
+        width: 881
+        height: 363
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e12986782db0ab4684286fc86157232
+      spriteID: 5d8be93d42b6a2341a2ca8c53ea42934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GelecaMovendo_4
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 0
+        width: 881
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b53b86f9a6e8644999e280bb60fdf2
       vertices: []
       indices: 
       edges: []
@@ -193,7 +236,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: d58351e016551f844bd3733c63fbad30
+    spriteID: 5326439e768def8428ef76c7fd950d63
     vertices: []
     indices: 
     edges: []

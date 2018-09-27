@@ -19,8 +19,35 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        
+
+        //GetComponent<Animator>().SetInteger("status", 0);
+        GetComponent<Animator>().SetInteger("estado", 0);
+
+        if (Input.GetAxis("Horizontal") > 0.01f)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;       
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("estado", 1);
+            }
+        }
+        else if (Input.GetAxis("Horizontal") < -0.01f)
+        {
+
+            GetComponent<SpriteRenderer>().flipX = true;
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("estado", 1);
+            }
+        }
+
+       
+
+        
+    }
 
     private void FixedUpdate()
     {
@@ -28,7 +55,7 @@ public class Player : MonoBehaviour {
         sbyte direcao = 1;
 
         //GetComponent<Animator>().SetInteger("status", 0);
-        GetComponent<Animator>().SetInteger("status", 0);
+        GetComponent<Animator>().SetInteger("estado", 0);
 
         if (Input.GetAxis("Horizontal") > 0.01f)
         {
@@ -39,9 +66,11 @@ public class Player : MonoBehaviour {
             else
                 transform.position += new Vector3(0.05f, 0, 0);
 
+
+
             if (!jumping)
             {
-                GetComponent<Animator>().SetInteger("status", 1);
+                GetComponent<Animator>().SetInteger("estado", 1);
             }
         }
         else if(Input.GetAxis("Horizontal")< -0.01f)
@@ -52,9 +81,11 @@ public class Player : MonoBehaviour {
             else
                 transform.position -= new Vector3(0.05f, 0, 0);
 
+
+
             if (!jumping)
             {
-                GetComponent<Animator>().SetInteger("status", 1);
+                GetComponent<Animator>().SetInteger("estado", 1);
             }
         }
 
@@ -67,7 +98,7 @@ public class Player : MonoBehaviour {
         if(Input.GetAxis("Fire1")>0 && countTiro == 0)
         {
             GameObject t = Instantiate(tiro, transform.position, new Quaternion());
-            GetComponent<Animator>().SetInteger("status", 2);
+            //GetComponent<Animator>().SetInteger("estado", 2);
 
             t.GetComponent<Tiro>().direcao = direcao;
 
