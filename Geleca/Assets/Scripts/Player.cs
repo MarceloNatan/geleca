@@ -53,9 +53,7 @@ public class Player : MonoBehaviour {
     {
 
         sbyte direcao = 1;
-
-        //GetComponent<Animator>().SetInteger("status", 0);
-        GetComponent<Animator>().SetInteger("estado", 0);
+        
 
         if (Input.GetAxis("Horizontal") > 0.01f)
         {
@@ -66,12 +64,7 @@ public class Player : MonoBehaviour {
             else
                 transform.position += new Vector3(0.05f, 0, 0);
 
-
-
-            if (!jumping)
-            {
-                GetComponent<Animator>().SetInteger("estado", 1);
-            }
+            
         }
         else if(Input.GetAxis("Horizontal")< -0.01f)
         {
@@ -81,21 +74,16 @@ public class Player : MonoBehaviour {
             else
                 transform.position -= new Vector3(0.05f, 0, 0);
 
-
-
-            if (!jumping)
-            {
-                GetComponent<Animator>().SetInteger("estado", 1);
-            }
+            
         }
 
-        if(Input.GetAxis("Jump") != 0 && !jumping)
+        if(Input.GetAxis("Fire1") != 0 && !jumping)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector3(0,500,0));
             jumping = true;
         }
 
-        if(Input.GetAxis("Fire1")>0 && countTiro == 0)
+        if(Input.GetAxis("Fire2")>0 && countTiro == 0)
         {
             GameObject t = Instantiate(tiro, transform.position, new Quaternion());
             //GetComponent<Animator>().SetInteger("estado", 2);
