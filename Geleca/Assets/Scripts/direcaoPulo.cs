@@ -8,25 +8,18 @@ public class direcaoPulo : MonoBehaviour {
     public float velocidadeMovi = 0.1f;
     public Vector2 minhaPosicao;
     public GameObject PosPlayer;
-    private int countTiro;
+	// Use this for initialization
 
-    [SerializeField]
-    private GameObject projetil;
-
-    public Quaternion frente;
-
-    // Use this for initialization
-
-    void Start () {
+	void Start () {
         
 
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
-        float movimentoHorizontal = Input.GetAxis("HorizontalY");
+	void Update () {
+        float movimentoHorizontal = Input.GetAxis("Horizontal");
 
-        float movimentoVertical = Input.GetAxis("VerticalY");
+        float movimentoVertical = Input.GetAxis("Vertical");
 
         minhaPosicao = new Vector2(transform.position.x, transform.position.y);//posicao atual
 
@@ -45,37 +38,10 @@ public class direcaoPulo : MonoBehaviour {
         Color cor = new Color(201, 0, 0);
         Debug.DrawLine(minhaPosicao, posicaoMouse, cor);
 
-        frente = transform.rotation;
-
-        movimentoHorizontal = movimentoHorizontal < 0 ? movimentoHorizontal * -1 : movimentoHorizontal;
-        movimentoVertical = movimentoVertical < 0 ? movimentoVertical * -1 : movimentoVertical;
-        if (countTiro == 0 && (movimentoHorizontal >= 1f || movimentoVertical>=1f) )
-        {
-            Vector3 angulos = transform.rotation.eulerAngles;
-
-            Quaternion target = Quaternion.Euler(new Vector3(angulos.x,angulos.y, angulos.z + 85));
-
-            GameObject t = Instantiate(projetil, transform.position, target );
-            //t.transform.rotation = Quaternion.Slerp(t.transform.rotation, target, Time.deltaTime * smooth);
-
-            //t.GetComponent<Tiro>().direcao = direcao;
-
-            Debug.Log("Vertical:" + movimentoVertical);
-            Debug.Log("Horizontal:" + movimentoHorizontal);
-            Destroy(t, 5f);
-
-            countTiro++;
-        }
-
-        if (countTiro != 0)
-        {
-            countTiro = (byte)((countTiro + 1) % 20);
-        }
-
         //========
 
 
 
-
+       
     }
 }
