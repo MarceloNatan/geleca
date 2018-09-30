@@ -1229,7 +1229,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 809948583}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.79, y: -1.79, z: 0}
+  m_LocalPosition: {x: 2.5, y: -1.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 882683357}
   - component: {fileID: 882683356}
   - component: {fileID: 882683355}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LimiteBaixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2469,7 +2469,7 @@ GameObject:
   - component: {fileID: 1754997870}
   - component: {fileID: 1754997869}
   - component: {fileID: 1754997868}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LimiteEsquerdo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2642,7 +2642,7 @@ GameObject:
   - component: {fileID: 1904855101}
   - component: {fileID: 1904855100}
   - component: {fileID: 1904855099}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LimiteDireito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2890,7 +2890,7 @@ GameObject:
   - component: {fileID: 2106341799}
   - component: {fileID: 2106341798}
   - component: {fileID: 2106341797}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: LimiteAlto
   m_TagString: Untagged
   m_Icon: {fileID: 0}

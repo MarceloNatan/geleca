@@ -30,12 +30,18 @@ public class direcaoPulo : MonoBehaviour {
         // posicaoMouse = Camera.main.ScreenToWorldPoint(posicaoMouse);
         //   Vector2 direcao = new Vector2(posicaoMouse.x - transform.position.x , 
         //                               posicaoMouse.y - transform.position.y);
-
         Vector2 movimentacao = new Vector2(movimentoHorizontal, movimentoVertical);
         transform.up = movimentacao ;
+
+
         //-------------------- Linha de Debug do jogador até o ponteiro do mouse
+        Color cor = new Color(201, 0, 0);
+        Debug.DrawLine(minhaPosicao, posicaoMouse, cor);
+
+        //========
 
 
+
+       
     }
-
 }
