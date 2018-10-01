@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Terrain
+  - ProjetilInimigo
   layers:
   - Default
   - TransparentFX
