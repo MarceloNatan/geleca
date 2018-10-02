@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Terrain
   - ProjetilInimigo
+  - Paredes
+  - ParedeDireita
   layers:
   - Default
   - TransparentFX
