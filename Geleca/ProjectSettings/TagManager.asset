@@ -8,6 +8,8 @@ TagManager:
   - ProjetilInimigo
   - Paredes
   - ParedeDireita
+  - Cair
+  - Teto
   layers:
   - Default
   - TransparentFX

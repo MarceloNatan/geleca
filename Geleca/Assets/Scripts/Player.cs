@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
 
     private bool noMuro = false;
 
+    bool more = false;
+
     private byte countTiro = 0;
 
 	// Use this for initialization
@@ -84,35 +86,22 @@ public class Player : MonoBehaviour {
         {
             if (Input.GetAxis("Vertical") > 0.01f)
             {
-                //   Debug.Log("virou miserá");
-                //  transform.Rotate(Vector3.right* Time.deltaTime);
-                //transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
-              
+
                 transform.position += new Vector3(0, 0.05f, 0);
             
 
                 direcao = -1;
-                if (jumping)
+                if (jumping && noMuro)
                     GetComponent<Rigidbody2D>().AddForce(new Vector3(-3, 0, 0));
-                //else
-                //transform.position -= new Vector3(0.05f, 0, 0);
-
+ 
 
             }
             if (Input.GetAxis("Vertical") < -0.01f)
             {
-                Debug.Log("virou miserá");
-                //  transform.Rotate(Vector3.right* Time.deltaTime);
-                //transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
+ 
                 transform.eulerAngles = new Vector3(0, 0, -90);
                 transform.position -= new Vector3(0, 0.05f, 0);
                 direcao = -1;
-
-                //if (jumping)
-                //    GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 0, 0));
-                //else
-                //transform.position -= new Vector3(0.05f, 0, 0);
-
 
             }
         }
@@ -129,14 +118,24 @@ public class Player : MonoBehaviour {
            
         }
 
+        if (Input.GetAxis("Fire1") != 0 && noMuro && more)
+        {
+           GetComponent<Rigidbody2D>().AddForce(new Vector3(-500,0,0) );
+           // transform.position += new Vector3(100,0,0) * Time.deltaTime;
+            noMuro = false;
+            more = false;
+           Debug.Log(noMuro);
+        }
+
         if (Input.GetAxis("Fire1") != 0 && noMuro)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector3(500, 0, 0));
+            // transform.position += new Vector3(100,0,0) * Time.deltaTime;
             noMuro = false;
             Debug.Log(noMuro);
-         
-
         }
+
+
 
 
 
@@ -177,18 +176,27 @@ public class Player : MonoBehaviour {
         {
             transform.eulerAngles = new Vector3(0, 0, -90);
             noMuro = true;
+            
+            Debug.Log(noMuro + "Dentro");
             this.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
         }
+       
+        //-----
 
         if (collision.gameObject.tag == "ParedeDireita")
         {
             transform.eulerAngles = new Vector3(0, 0, 90);
             noMuro = true;
+            more = true;
             this.GetComponent<Rigidbody2D>().gravityScale = 0.0f;
+
         }
 
+        if (collision.gameObject.tag == "Teto") {
+            transform.eulerAngles = new Vector3(0, 0, 180);
+            noMuro = true;
+        }
 
-        Debug.Log(collision.gameObject.tag);
         
     }
 
@@ -199,6 +207,11 @@ public class Player : MonoBehaviour {
         if(collision.tag == "ProjetilInimigo")
         {
             Destroy(collision.gameObject,0);
+        }
+        if (collision.tag == "Cair")
+        {
+            this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
+            GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 0, 0));
         }
     }
 
