@@ -6,6 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
+    #region VARIAVEIS
     bool jumping = false;
     bool canto;
     [SerializeField]
@@ -16,27 +17,25 @@ public class Player : MonoBehaviour
     bool colideParedeDireita;
     bool colideTeto;
 
-    //private bool noMuro = false;
-
-   // bool more = false;
-
     private byte countTiro = 0;
+    #endregion
 
-    // Use this for initialization
+    #region START()
     void Start()
     {
-       // canto = false;
+        // canto = false;
         colideComTerreno = false;
         colideParedeEsquerda = false;
         colideTeto = false;
     }
+    #endregion
 
-    // Update is called once per frame
+    #region UPDATE()
     void Update()
     {
 
 
-        //GetComponent<Animator>().SetInteger("status", 0);
+
         GetComponent<Animator>().SetInteger("estado", 0);
 
         if (Input.GetAxis("Horizontal") > 0.01f)
@@ -47,8 +46,30 @@ public class Player : MonoBehaviour
             {
                 GetComponent<Animator>().SetInteger("estado", 1);
             }
+
         }
         else if (Input.GetAxis("Horizontal") < -0.01f)
+        {
+
+            GetComponent<SpriteRenderer>().flipX = true;
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("estado", 1);
+            }
+        }
+
+        if (Input.GetAxis("Vertical") > 0.01f)
+        {
+            GetComponent<SpriteRenderer>().flipX = false;
+
+            if (!jumping)
+            {
+                GetComponent<Animator>().SetInteger("estado", 1);
+            }
+
+        }
+        else if (Input.GetAxis("Vertical") < -0.01f)
         {
 
             GetComponent<SpriteRenderer>().flipX = true;
@@ -63,7 +84,9 @@ public class Player : MonoBehaviour
 
 
     }
+    #endregion
 
+    #region FIXEDUPDATE()
     private void FixedUpdate()
     {
 
@@ -95,10 +118,11 @@ public class Player : MonoBehaviour
         //-----------------------------------HOOOOOO------------------------------
         if (colideParedeEsquerda)
         {
+            girarMenos90();
             if (Input.GetAxis("Vertical") > 0.01f)
             {
 
-                transform.position += new Vector3(0, 0.05f, 0);
+                transform.position += new Vector3(0, .05f, 0);
 
 
                 direcao = -1;
@@ -110,17 +134,51 @@ public class Player : MonoBehaviour
             if (Input.GetAxis("Vertical") < -0.01f)
             {
 
-                transform.eulerAngles = new Vector3(0, 0, -90);
-                transform.position -= new Vector3(0, 0.05f, 0);
+
+                transform.position -= new Vector3(0, .05f, 0);
                 direcao = -1;
                 Debug.Log("Baixo");
             }
 
         }
+
+
+        if (colideParedeDireita)
+        {
+            Debug.Log("PAREDE DIREITA");
+            girar90();
+            if (Input.GetAxis("Vertical") > 0.01f)
+            {
+
+                transform.position += new Vector3(0, .05f, 0);
+
+
+                direcao = -1;
+                //if (jumping && noMuro)
+                //    GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 0, 0));
+
+
+            }
+            if (Input.GetAxis("Vertical") < -0.01f)
+            {
+
+
+                transform.position -= new Vector3(0, .05f, 0);
+                direcao = -1;
+                Debug.Log("Baixo");
+            }
+
+        }
+
+
+        //====================================================
         if (colideTeto)
         {
+
             girar180();
-            if (Input.GetAxis("Vertical") > 0.01f)
+
+            // girar180();
+            if (Input.GetAxis("Horizontal") > 0.01f)
             {
 
                 transform.position += new Vector3(0, 0.05f, 0);
@@ -132,22 +190,32 @@ public class Player : MonoBehaviour
 
 
             }
-            if (Input.GetAxis("Vertical") < -0.01f)
+            if (Input.GetAxis("Horizontal") < -0.01f)
             {
 
-                girarMenos90();
-                transform.position -= new Vector3(0, 0.05f, 0);
-                direcao = -1;
+                // girarMenos90();
+                transform.position -= new Vector3(0, -0.05f, 0);
+                direcao = 2;
                 Debug.Log("Baixo");
+
             }
 
         }
+
 
         //-----------------------------------------------------------------
 
         if (Input.GetAxis("Fire1") > 0 && colideParedeEsquerda) // se atiro a partir da parede!
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector3(500, 0, 0));
+            jumping = true;
+           
+
+        }
+
+        if (Input.GetAxis("Fire1") > 0 && colideParedeDireita) // se atiro a partir da parede!
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector3(-500, 0, 0));
             jumping = true;
 
         }
@@ -160,21 +228,23 @@ public class Player : MonoBehaviour
 
         }
 
-        if (Input.GetAxis("Fire1") > 0 && colideTeto) {
+        if (Input.GetAxis("Fire1") > 0 && colideTeto)
+        {
             GetComponent<Rigidbody2D>().AddForce(new Vector3(0, -500, 0));
             jumping = true;
-            
+
             //gravidadeZero();
 
         }
-       // Debug.Log("Colidiu com parede");
+        // Debug.Log("Colidiu com parede");
         // Debug.Log(jumping);
 
 
+        #region Disparo
         if (Input.GetAxis("Fire2") > 0 && countTiro == 0)
         {
             GameObject t = Instantiate(tiro, transform.position, new Quaternion());
-          
+
 
             t.GetComponent<Tiro>().direcao = direcao;
 
@@ -187,18 +257,12 @@ public class Player : MonoBehaviour
         {
             countTiro = (byte)((countTiro + 1) % 10);
         }
+        #endregion
 
-  
 
-        if (colideComTerreno && colideParedeEsquerda) {
-            //colideParedeEsquerda = false;
-            // colideSoTerreno = false;
-            //  canto = true;
-            Debug.Log("Canto");
-           // gravidadeAtiva();
-        }
     }
-    //-----------------------------------------
+    #endregion
+
     #region GRAVIDADE
     private void gravidadeZero()
     {
@@ -212,7 +276,7 @@ public class Player : MonoBehaviour
 
     }
     #endregion
-    //-----------------------------------------
+
     #region GIRAR
     private void girar90()
     {
@@ -235,17 +299,28 @@ public class Player : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 0, -180);
     }
     #endregion
-    //-----------------------------------------
 
-
+    #region COLISAO
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
         if (collision.gameObject.tag == "Paredes")
         {
             colideParedeEsquerda = true;
+
             jumping = false;
-            girarMenos90();
+
+            gravidadeZero();
+            GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        }
+
+
+        if (collision.gameObject.tag == "ParedeDireita")
+        {
+            colideParedeDireita = true;
+
+            jumping = false;
+
             gravidadeZero();
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
@@ -254,17 +329,17 @@ public class Player : MonoBehaviour
         {
             colideComTerreno = true;
             jumping = false;
-           
+            naoGirar();
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-            
-          
+
+
         }
 
         if (collision.gameObject.tag == "Teto")
         {
             colideTeto = true;
             jumping = false;
-           
+            girar180();
             gravidadeZero();
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
 
@@ -278,26 +353,27 @@ public class Player : MonoBehaviour
         {
             colideParedeEsquerda = false;
 
-            naoGirar();
+        }
+
+        if (collision.gameObject.tag == "ParedeDireita")
+        {
+            colideParedeDireita = false;
 
         }
 
         if (collision.gameObject.tag == "Terrain")
         {
             colideComTerreno = false;
-    
+
         }
 
         if (collision.gameObject.tag == "Teto")
         {
             colideTeto = false;
-          
+
         }
 
     }
-
-
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "ProjetilInimigo")
@@ -307,11 +383,12 @@ public class Player : MonoBehaviour
         if (collision.tag == "Cair")
         {
             Debug.Log("dentro");
-          this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
+            this.GetComponent<Rigidbody2D>().gravityScale = 1.0f;
 
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         }
     }
+    #endregion
 
 
 }
