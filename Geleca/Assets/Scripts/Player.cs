@@ -118,6 +118,7 @@ public class Player : MonoBehaviour
         //-----------------------------------HOOOOOO------------------------------
         if (colideParedeEsquerda)
         {
+            transform.position += new Vector3(-.05f, 0, 0);
             girarMenos90();
             if (Input.GetAxis("Vertical") > 0.01f)
             {
@@ -145,6 +146,7 @@ public class Player : MonoBehaviour
 
         if (colideParedeDireita)
         {
+            transform.position += new Vector3(.05f, 0, 0);
             Debug.Log("PAREDE DIREITA");
             girar90();
             if (Input.GetAxis("Vertical") > 0.01f)
@@ -174,7 +176,7 @@ public class Player : MonoBehaviour
         //====================================================
         if (colideTeto)
         {
-
+            transform.position += new Vector3(0, .05f, 0);
             girar180();
 
             // girar180();
