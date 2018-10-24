@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: c1abed075b0e9e8458e4932f2d3b0288
+guid: 6c14ef9189a7be74a971c4b38ef6608f
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GelecaMovendo_0
-    21300002: GelecaMovendo_1
-    21300004: GelecaMovendo_2
-    21300006: GelecaMovendo_3
-    21300008: GelecaMovendo_4
-    21300010: GelecaMovendo_5
+    21300000: Personagem_Pulo_0
+    21300002: Personagem_Pulo_1
+    21300004: Personagem_Pulo_2
+    21300006: Personagem_Pulo_3
+    21300008: Personagem_Pulo_4
+    21300010: Personagem_Pulo_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,61 +86,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GelecaMovendo_0
+      name: Personagem_Pulo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 363
-        width: 881
-        height: 363
+        y: 1446
+        width: 1119
+        height: 723
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +104,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11a98064b4b1906469f635c543ba31f4
+      spriteID: bdbec512c4e3740408b88e6730e34c9e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_1
+      name: Personagem_Pulo_1
       rect:
         serializedVersion: 2
-        x: 881
-        y: 363
-        width: 881
-        height: 363
+        x: 1119
+        y: 1446
+        width: 1119
+        height: 723
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb3d2a530a4dbae4692104fe4c248597
+      spriteID: d49cb0593981fb340952e0b4b0cf5f6a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_2
+      name: Personagem_Pulo_2
       rect:
         serializedVersion: 2
-        x: 1762
-        y: 363
-        width: 881
-        height: 363
+        x: 0
+        y: 723
+        width: 1119
+        height: 723
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,19 +144,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b687360062a6d479c715f70c3f0c8d
+      spriteID: ba3a20a09f632234eb52faa19a53b8b9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_3
+      name: Personagem_Pulo_3
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 723
+        width: 1119
+        height: 723
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c57e0a6b1c93f4b9d91525d44b6764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personagem_Pulo_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 881
-        height: 363
+        width: 1119
+        height: 723
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,19 +184,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b945c8349d7094cbc6bacaa0bd8a86
+      spriteID: 75efd11ada209c44db11dc950b6a49ae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_4
+      name: Personagem_Pulo_5
       rect:
         serializedVersion: 2
-        x: 881
+        x: 1119
         y: 0
-        width: 881
-        height: 363
+        width: 1119
+        height: 723
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +204,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295f00e343a43a545ab848d111c58b8b
+      spriteID: cf30b81fad592714c98760f5cf70f2ed
       vertices: []
       indices: 
       edges: []
@@ -236,7 +212,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5326439e768def8428ef76c7fd950d63
+    spriteID: 3ffafec3e51893a46b9ac9c56ad69589
     vertices: []
     indices: 
     edges: []

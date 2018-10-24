@@ -181,17 +181,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d3b100d7020ffb478d97c1d708e887f
+      spriteID: 9c8feef8d8ba9f244b5ed9e2c5ed6af4
       vertices: []
       indices: 
       edges: []
@@ -200,18 +200,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_1
       rect:
         serializedVersion: 2
-        x: 848
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2157a2ac86b71404dbb676a019b4cf3b
+      spriteID: 8b5cee07658110447be63c172c2f74c6
       vertices: []
       indices: 
       edges: []
@@ -220,18 +220,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_2
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac893da069b2bfc4182a6e707618724c
+      spriteID: 0eefe6a4716f4bf44aef158e4b3f867a
       vertices: []
       indices: 
       edges: []
@@ -240,18 +240,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_3
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f88d40e34619b642ae0d024a28fcc41
+      spriteID: f147ba7a196356f49acab039bf32e38d
       vertices: []
       indices: 
       edges: []
@@ -260,18 +260,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_4
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d126c332fa9bdd44797e4eb4c42f6134
+      spriteID: 470ae8168a500f748ab098a0866821b7
       vertices: []
       indices: 
       edges: []
@@ -280,18 +280,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_5
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a47908dae996a459348e3f10673047
+      spriteID: b10d2c97ce7ad2e49aa44fbebd68a1e4
       vertices: []
       indices: 
       edges: []
@@ -300,18 +300,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_6
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 2406
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 2514
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7609e039b2c3b8c42b6ba16c64ea6130
+      spriteID: 9d28203dce31230439c34ce7354af976
       vertices: []
       indices: 
       edges: []
@@ -321,17 +321,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 970c2415f9bd22c45a2c6d230580b1fa
+      spriteID: 3a1e581649c12984cb20838579005de9
       vertices: []
       indices: 
       edges: []
@@ -340,18 +340,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_8
       rect:
         serializedVersion: 2
-        x: 848
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0430067fb93f434b87676910268477b
+      spriteID: db182334a325dd348b31fd9921e89b6f
       vertices: []
       indices: 
       edges: []
@@ -360,18 +360,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_9
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35f4809e598eefc468aaf8ac056018db
+      spriteID: 5124e3a553e634f4fa62849bdf44dcf1
       vertices: []
       indices: 
       edges: []
@@ -380,18 +380,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_10
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efdae7f2ca046c14e8c477ad416f698a
+      spriteID: a2b19fa758f26c44dba4079fe025cac4
       vertices: []
       indices: 
       edges: []
@@ -400,18 +400,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_11
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea69a693175deb64d97a8a7e51f4da8c
+      spriteID: f0cfd698951ba204fb74b431abafdbf2
       vertices: []
       indices: 
       edges: []
@@ -420,18 +420,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_12
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 630389fb3849aa44ca516b42f7eb0122
+      spriteID: f8b2f0cc7c66e1c4294b88609a687aa0
       vertices: []
       indices: 
       edges: []
@@ -440,18 +440,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_13
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 2005
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 2095
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 008cfb4ab2db47a4092cbea8ccde0e02
+      spriteID: 41073707dca140d4ca863edfa9f8efcf
       vertices: []
       indices: 
       edges: []
@@ -461,17 +461,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23ea6c7a319bc964bb184bf5d9f6c882
+      spriteID: ff9be5b979498544086fb326f6293f3f
       vertices: []
       indices: 
       edges: []
@@ -480,18 +480,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_15
       rect:
         serializedVersion: 2
-        x: 848
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3e4a1f810784eb4e904f0eac2e3d857
+      spriteID: 14590c979b79a834cb621101fdae8093
       vertices: []
       indices: 
       edges: []
@@ -500,18 +500,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_16
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 412f9fde4d2dff743a0a42f8cb865232
+      spriteID: b28ed347698539b44a25d2934d2fc1df
       vertices: []
       indices: 
       edges: []
@@ -520,18 +520,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_17
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f41b9bbc4a87d540bde85bf8aec2843
+      spriteID: ae55e871728ec83498646b2341b20f4b
       vertices: []
       indices: 
       edges: []
@@ -540,18 +540,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_18
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7923dd44f2055ae4c9a3d0df04525fb4
+      spriteID: 8f007cce921249946948411cf9c87693
       vertices: []
       indices: 
       edges: []
@@ -560,18 +560,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_19
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 154f17c0e90033f48bf47f3af5da2df9
+      spriteID: 00d1d58693a4fba41b2e8877335ee63a
       vertices: []
       indices: 
       edges: []
@@ -580,18 +580,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_20
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 1604
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 1676
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c3a08cd571bdac4b91d66f1359c3656
+      spriteID: 6165c7f484939484184c15a46f55c481
       vertices: []
       indices: 
       edges: []
@@ -601,17 +601,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfc733401c4d4a347958170e34f30773
+      spriteID: 42f5e1a269faf4443bf838d0a8522c7f
       vertices: []
       indices: 
       edges: []
@@ -620,18 +620,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_22
       rect:
         serializedVersion: 2
-        x: 848
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f2f77d118feb140ad6bb9c08b08e75
+      spriteID: e3bf625eb7c416249a2a57fc86c30de1
       vertices: []
       indices: 
       edges: []
@@ -640,18 +640,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_23
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c118af868489da469d0ac243263b02b
+      spriteID: bd900406f89634e4abb961a13aaaae1f
       vertices: []
       indices: 
       edges: []
@@ -660,18 +660,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_24
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24584b0d5c7f8054785fd2300b90eaaf
+      spriteID: c46fec42c3f9de443a0d15bf87a67288
       vertices: []
       indices: 
       edges: []
@@ -680,18 +680,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_25
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a339c466d445447ba59b70bfda930d
+      spriteID: 775f62b594b5e4445b52bc59d17561f6
       vertices: []
       indices: 
       edges: []
@@ -700,18 +700,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_26
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588501d99c4c456448f721d946c9c5e2
+      spriteID: 6e2946a155547eb489c2d5eeb2b81f33
       vertices: []
       indices: 
       edges: []
@@ -720,18 +720,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_27
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 1203
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 1257
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a048bd28ac03e04091e672bb1fa3299
+      spriteID: 28bf2a86e92747c41b4e5d38000be146
       vertices: []
       indices: 
       edges: []
@@ -741,17 +741,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d4f1451e77cabf44919997e77943f84
+      spriteID: 51d850af371404e439b362d147badb5a
       vertices: []
       indices: 
       edges: []
@@ -760,18 +760,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_29
       rect:
         serializedVersion: 2
-        x: 848
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d20f736f77d3a494e930d9ac4465eff3
+      spriteID: 9919ecdd451d0744e98a1f363760f75d
       vertices: []
       indices: 
       edges: []
@@ -780,18 +780,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_30
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 149915b7e715e7c42afa5104e216697e
+      spriteID: 018c691c1fd39a049bc8ff542f8c2f03
       vertices: []
       indices: 
       edges: []
@@ -800,18 +800,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_31
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f047d770aac694a44a5e43ff2d1a399f
+      spriteID: 794e2f07e6ce94840bd6722ff0df2fc3
       vertices: []
       indices: 
       edges: []
@@ -820,18 +820,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_32
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5330332202736ea41800a4cca241d4f1
+      spriteID: b89a704f3ac9cf441b5f0450155c504b
       vertices: []
       indices: 
       edges: []
@@ -840,18 +840,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_33
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfa36d826da374b418230cb3ec5c03af
+      spriteID: d4a00f14417503c4db8a368db333e5b0
       vertices: []
       indices: 
       edges: []
@@ -860,18 +860,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_34
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 802
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 838
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d690355b64cac69489495c0d5241e209
+      spriteID: e513212b9b1f0be40ae9f37591f37564
       vertices: []
       indices: 
       edges: []
@@ -881,17 +881,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ef399b6d5a50f3458fdacc8a569683c
+      spriteID: 54f6b6a4a66a0c34586c74a524f034c7
       vertices: []
       indices: 
       edges: []
@@ -900,18 +900,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_36
       rect:
         serializedVersion: 2
-        x: 848
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 888
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b04e430f56c7d1a4ca4ee2be049c7cf8
+      spriteID: 9362751e4a06798488aa999b7d36280e
       vertices: []
       indices: 
       edges: []
@@ -920,18 +920,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_37
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1776
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cfbe708f0bcb714d97d582ea74333fa
+      spriteID: 67356674446573143bfa597c1daa3de8
       vertices: []
       indices: 
       edges: []
@@ -940,18 +940,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_38
       rect:
         serializedVersion: 2
-        x: 2544
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2664
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b778c635351e234d9674ebfc117ba1b
+      spriteID: b199f20edf4b9aa4ba2714a39257efc2
       vertices: []
       indices: 
       edges: []
@@ -960,18 +960,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_39
       rect:
         serializedVersion: 2
-        x: 3392
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3552
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2510cda4d8f23b4bb066f6933ad0347
+      spriteID: 60f899b1ed40170449cd5b0985a6b71f
       vertices: []
       indices: 
       edges: []
@@ -980,18 +980,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_40
       rect:
         serializedVersion: 2
-        x: 4240
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4440
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608f1b7abd5d53848ac7119f550da255
+      spriteID: 5e2524501c37ab24c8f7119e4912d564
       vertices: []
       indices: 
       edges: []
@@ -1000,18 +1000,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_41
       rect:
         serializedVersion: 2
-        x: 5088
-        y: 401
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 5328
+        y: 419
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39619f704af06cc41adb7841513e6955
+      spriteID: 61b95dc452f3fbc4ebffdc17607c0869
       vertices: []
       indices: 
       edges: []
@@ -1022,16 +1022,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e001a5f9c00a484fb847c49314bf79d
+      spriteID: 00415842ea435c4469a9788e1d72bdc6
       vertices: []
       indices: 
       edges: []
@@ -1040,18 +1040,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_43
       rect:
         serializedVersion: 2
-        x: 848
+        x: 888
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3e0c555e7141b94b936f61e4b8b4297
+      spriteID: dfb430b09daa2a940a47ca36dac5721c
       vertices: []
       indices: 
       edges: []
@@ -1060,18 +1060,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_44
       rect:
         serializedVersion: 2
-        x: 1696
+        x: 1776
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca7ea8506a1f5cf44a3ba9ba61ecd2e6
+      spriteID: b22c16ccabcdf8b47b8c4e24e8ef62d9
       vertices: []
       indices: 
       edges: []
@@ -1080,18 +1080,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_45
       rect:
         serializedVersion: 2
-        x: 2544
+        x: 2664
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41119e0eb0959514dbebdb9794a0bd0f
+      spriteID: cd0ebce8fdc06924fbb4568d99016ade
       vertices: []
       indices: 
       edges: []
@@ -1100,18 +1100,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_46
       rect:
         serializedVersion: 2
-        x: 3392
+        x: 3552
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f0b1b0b59ed2342ba9c1ab0a71c199
+      spriteID: edaf184c7a5f5284e8072e2237c3684a
       vertices: []
       indices: 
       edges: []
@@ -1120,38 +1120,18 @@ TextureImporter:
       name: Geleca_PersonagemPrincipal_Respirar_47
       rect:
         serializedVersion: 2
-        x: 4240
+        x: 4440
         y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 888
+        height: 419
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af0bf4c9f3936b645952ecce606d987a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Geleca_PersonagemPrincipal_Respirar_48
-      rect:
-        serializedVersion: 2
-        x: 5088
-        y: 0
-        width: 848
-        height: 401
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1aecafd538797145ac167627816c0bd
+      spriteID: 4f5925282ff369e4cb92845ed9ceccf7
       vertices: []
       indices: 
       edges: []

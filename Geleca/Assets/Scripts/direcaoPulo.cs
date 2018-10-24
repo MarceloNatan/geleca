@@ -56,12 +56,13 @@ public class direcaoPulo : MonoBehaviour {
             Quaternion target = Quaternion.Euler(new Vector3(angulos.x,angulos.y, angulos.z + 85));
 
             GameObject t = Instantiate(projetil, transform.position, target );
+            t.GetComponent<SpriteRenderer>().sortingOrder = 100;
             //t.transform.rotation = Quaternion.Slerp(t.transform.rotation, target, Time.deltaTime * smooth);
 
             //t.GetComponent<Tiro>().direcao = direcao;
 
-            Debug.Log("Vertical:" + movimentoVertical);
-            Debug.Log("Horizontal:" + movimentoHorizontal);
+            //Debug.Log("Vertical:" + movimentoVertical);
+            //Debug.Log("Horizontal:" + movimentoHorizontal);
             Destroy(t, 5f);
 
             countTiro++;

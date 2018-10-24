@@ -1,13 +1,12 @@
 fileFormatVersion: 2
-guid: c1abed075b0e9e8458e4932f2d3b0288
+guid: 58e7b9dc96895144b8bf425aa7c186f5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: GelecaMovendo_0
-    21300002: GelecaMovendo_1
-    21300004: GelecaMovendo_2
-    21300006: GelecaMovendo_3
-    21300008: GelecaMovendo_4
-    21300010: GelecaMovendo_5
+    21300000: PersonagemGiroPulo_0
+    21300002: PersonagemGiroPulo_1
+    21300004: PersonagemGiroPulo_2
+    21300006: PersonagemGiroPulo_3
+    21300008: PersonagemGiroPulo_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -86,61 +85,17 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GelecaMovendo_0
+      name: PersonagemGiroPulo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 363
-        width: 881
-        height: 363
+        y: 782
+        width: 782
+        height: 782
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,19 +103,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11a98064b4b1906469f635c543ba31f4
+      spriteID: c87c64d9a1e1c9b4595b3120489bf5c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_1
+      name: PersonagemGiroPulo_1
       rect:
         serializedVersion: 2
-        x: 881
-        y: 363
-        width: 881
-        height: 363
+        x: 782
+        y: 782
+        width: 782
+        height: 782
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,19 +123,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb3d2a530a4dbae4692104fe4c248597
+      spriteID: 77630e5d294d88749be3579eb116e0bf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_2
+      name: PersonagemGiroPulo_2
       rect:
         serializedVersion: 2
-        x: 1762
-        y: 363
-        width: 881
-        height: 363
+        x: 1564
+        y: 782
+        width: 782
+        height: 782
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4b687360062a6d479c715f70c3f0c8d
+      spriteID: acfe4b3d335be0744832d2bf87df9fbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_3
+      name: PersonagemGiroPulo_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 881
-        height: 363
+        width: 782
+        height: 782
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,19 +163,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b945c8349d7094cbc6bacaa0bd8a86
+      spriteID: bb7b4d4ef09237f45aed311f59977b1d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GelecaMovendo_4
+      name: PersonagemGiroPulo_4
       rect:
         serializedVersion: 2
-        x: 881
+        x: 782
         y: 0
-        width: 881
-        height: 363
+        width: 782
+        height: 782
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +183,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 295f00e343a43a545ab848d111c58b8b
+      spriteID: 11605e74058a20546bb352456cd3b5ec
       vertices: []
       indices: 
       edges: []
@@ -236,7 +191,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5326439e768def8428ef76c7fd950d63
+    spriteID: 7477305b3250ea040a22071419f39a23
     vertices: []
     indices: 
     edges: []
