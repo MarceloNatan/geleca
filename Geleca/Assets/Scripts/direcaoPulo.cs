@@ -42,8 +42,8 @@ public class direcaoPulo : MonoBehaviour {
 
 
         //-------------------- Linha de Debug do jogador até o ponteiro do mouse
-        Color cor = new Color(201, 0, 0);
-        Debug.DrawLine(minhaPosicao, posicaoMouse, cor);
+        //Color cor = new Color(201, 0, 0);
+        //Debug.DrawLine(minhaPosicao, posicaoMouse, cor);
 
         frente = transform.rotation;
 

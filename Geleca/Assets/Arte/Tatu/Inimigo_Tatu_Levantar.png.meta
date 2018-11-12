@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 3d9a6e7bea28ec44a9326a47a0c2cb81
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inimigo_Tatu_Levantar_0
+    21300002: Inimigo_Tatu_Levantar_1
+    21300004: Inimigo_Tatu_Levantar_2
+    21300006: Inimigo_Tatu_Levantar_3
+    21300008: Inimigo_Tatu_Levantar_4
+    21300010: Inimigo_Tatu_Levantar_5
+    21300012: Inimigo_Tatu_Levantar_6
+    21300014: Inimigo_Tatu_Levantar_7
+    21300016: Inimigo_Tatu_Levantar_8
+    21300018: Inimigo_Tatu_Levantar_9
+    21300020: Inimigo_Tatu_Levantar_10
+    21300022: Inimigo_Tatu_Levantar_11
+    21300024: Inimigo_Tatu_Levantar_12
+    21300026: Inimigo_Tatu_Levantar_13
+    21300028: Inimigo_Tatu_Levantar_14
+    21300030: Inimigo_Tatu_Levantar_15
+    21300032: Inimigo_Tatu_Levantar_16
+    21300034: Inimigo_Tatu_Levantar_17
+    21300036: Inimigo_Tatu_Levantar_18
+    21300038: Inimigo_Tatu_Levantar_19
+    21300040: Inimigo_Tatu_Levantar_20
+    21300042: Inimigo_Tatu_Levantar_21
+    21300044: Inimigo_Tatu_Levantar_22
+    21300046: Inimigo_Tatu_Levantar_23
+    21300048: Inimigo_Tatu_Levantar_24
+    21300050: Inimigo_Tatu_Levantar_25
+    21300052: Inimigo_Tatu_Levantar_26
+    21300054: Inimigo_Tatu_Levantar_27
+    21300056: Inimigo_Tatu_Levantar_28
+    21300058: Inimigo_Tatu_Levantar_29
+    21300060: Inimigo_Tatu_Levantar_30
+    21300062: Inimigo_Tatu_Levantar_31
+    21300064: Inimigo_Tatu_Levantar_32
+    21300066: Inimigo_Tatu_Levantar_33
+    21300068: Inimigo_Tatu_Levantar_34
+    21300070: Inimigo_Tatu_Levantar_35
+    21300072: Inimigo_Tatu_Levantar_36
+    21300074: Inimigo_Tatu_Levantar_37
+    21300076: Inimigo_Tatu_Levantar_38
+    21300078: Inimigo_Tatu_Levantar_39
+    21300080: Inimigo_Tatu_Levantar_40
+    21300082: Inimigo_Tatu_Levantar_41
+    21300084: Inimigo_Tatu_Levantar_42
+    21300086: Inimigo_Tatu_Levantar_43
+    21300088: Inimigo_Tatu_Levantar_44
+    21300090: Inimigo_Tatu_Levantar_45
+    21300092: Inimigo_Tatu_Levantar_46
+    21300094: Inimigo_Tatu_Levantar_47
+    21300096: Inimigo_Tatu_Levantar_48
+    21300098: Inimigo_Tatu_Levantar_49
+    21300100: Inimigo_Tatu_Levantar_50
+    21300102: Inimigo_Tatu_Levantar_51
+    21300104: Inimigo_Tatu_Levantar_52
+    21300106: Inimigo_Tatu_Levantar_53
+    21300108: Inimigo_Tatu_Levantar_54
+    21300110: Inimigo_Tatu_Levantar_55
+    21300112: Inimigo_Tatu_Levantar_56
+    21300114: Inimigo_Tatu_Levantar_57
+    21300116: Inimigo_Tatu_Levantar_58
+    21300118: Inimigo_Tatu_Levantar_59
+    21300120: Inimigo_Tatu_Levantar_60
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2405382c38e015f468c635542c38bc71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_1
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28c294b00fbb9d40845d69d4dbd3f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_2
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035667e9b15aa824dba58945766d102e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_3
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0fe7007431a2643b9879a33f582f71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_4
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8665f1bd4117fe446830b1c40847c3ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_5
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 8570
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec91bf747eaac84bbb087457040cc23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a66fd46193fc45ae2d120df7ffafc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_7
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d10dcc0a01dcd44fa50824a29c8a71c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_8
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dccece82aa1a3459cb663bbcf35482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_9
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c367a4b8343edcf43b174eb8daea839f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_10
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295abdbc4989bed498bd126e41e1cd97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_11
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 7713
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e024531a84f71ad47a025fd1033dff79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba4795b4f29fb468e634b2af7b4359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_13
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8292b414aa1d184e82400ea9e8e4aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_14
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb0b778fa9cde54a82c1e0706c42366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_15
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3209828cbbcdec24090b3691c14aafca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_16
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd655fc592d851458f2977792b2ec7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_17
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 6856
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492313b30a9e9424ea08ffa93685b9ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28333d9f9ff64f48885b3e62e49aa4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_19
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1645eb56098103f4185a36b564ed1c94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_20
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f25697208aca74980c299cd90117bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_21
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11f5eb4ef8a4734cb517581e38ae2c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_22
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27d03d2c8405fd44885c619bb723230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_23
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 5999
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77991421dc15840952f84c326e3c3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a31d3fdef4bc740a54de312438c3d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_25
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e1fc5e4ee49914a9a735688047199c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_26
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a538a66de2ab5b40b9840a597a9f154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_27
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cea032d2393894fbd5fd926a33ef70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_28
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb3d08235eeb64088777a1383c9af1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_29
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 5142
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cff1d457d934054fbb50846a2dfa0ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4285
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0643ff71149ee4d4184f8cb4b773b245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_31
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 4296
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ecc32219b778845a5ad7393539f7c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_32
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 4285
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc55caee14bf2a449ad6d28eca7e9326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_33
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 4285
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d4325282600e842a0366a16421b98c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_34
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 4285
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4bbbdb6e3ab72409cb0f135bbdc3f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_35
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 4285
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b900be65dd62f488e876a776f7416f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b1d67a5b2ff864b859b5d4d7e6b7dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_37
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689cabb92016a574c85b7740e58f221e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_38
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ccc69d73b9a014a8264569ad974504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_39
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf9e3846729b0d42824a9b8d2d4139f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_40
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e5ea3b6da8604cbc6333ba5e1a209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_41
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 3428
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f52c78d6e6a855479e3969a233aa3d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2571
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5da05c5ce84e7408c9866120e4eefa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_43
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 2571
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd11af7efcef52c4bbd9c123235ac8b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_44
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 2582
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333dd5869fe0714d9add9a893bf6c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_45
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 2571
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ebb0de0e1ed444d94225613fcae6ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_46
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 2571
+        width: 934
+        height: 857
+      alignment: 9
+      pivot: {x: 0.60366225, y: 0.25041878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed2109368a141c4a873aafc378fd5d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_47
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 2571
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dcba9ce6e2b0846973ecc3c1b0b7b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478d12ccd2192fa4a8dd9589b6991c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_49
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b69a1fba65cdf849975cb02ec7cd6d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_50
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fa48d2ea4400d4ab020f6c20dce7ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_51
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260fc81c0f8d6a4489fb551ea7babd3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_52
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0278ef9bc8532418833d364eda6dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_53
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 1714
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a827ad597f606f440be4f51893af06e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35807b9ad6afe546bd7d4fe7b4fb732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_55
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6ab72dc1fd3bb42aed64f9411c6b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_56
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c701aa0e7adc46a7ad3bf04b9a412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_57
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd0dac0d7f2ed47ba3c1fd827bb158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_58
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1300ff19792c343ad8daf17fe22b9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_59
+      rect:
+        serializedVersion: 2
+        x: 4670
+        y: 857
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0723039657f6ee4fa361bfd953012a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Levantar_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 934
+        height: 857
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1ec5c818e7e50429c84f257bb45a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a4d3e268b22e77479bd8cb66fffbe4e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

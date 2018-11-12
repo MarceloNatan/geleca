@@ -9,6 +9,9 @@ public class Tiro : MonoBehaviour {
     public float moveSpeed = 100f;
     public float turnSpeed = 50f;
 
+    [SerializeField]
+    public float valorDoDano;
+
     // Use this for initialization
     void Start () {
 		

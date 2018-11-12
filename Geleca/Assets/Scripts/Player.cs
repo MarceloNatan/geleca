@@ -12,6 +12,11 @@ public class Player : MonoBehaviour {
 
     private byte countTiro = 0;
 
+    //private Direcao direcao = Direcao.chao;
+
+    [SerializeField]
+    private bool esquerda = false, direita, teto, chao;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -20,12 +25,7 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        //if (GetComponent<Animator>().GetInteger("estado") == 0)
-        //{
-        //    jumping = false;
-        //}
-        //GetComponent<Animator>().SetInteger("status", 0);
-        //GetComponent<Animator>().SetInteger("estado", 0);
+        
 
         if (Input.GetAxis("Horizontal") > 0.01f)
         {
@@ -67,12 +67,19 @@ public class Player : MonoBehaviour {
         if (Input.GetAxis("Fire1") != 0 && !GetComponent<Animator>().GetBool("pulando"))
         {
             //GetComponent<Rigidbody2D>().AddForce(new Vector3(0, 500, 0));
-            GetComponent<Animator>().SetInteger("estado", 2);
             //jumping = true;
+            if(teto || esquerda || direita)
+            {
+                GetComponent<Rigidbody2D>().gravityScale = 1;
+                GetComponent<Animator>().SetBool("pulando", true);
+            }
+            else
+            {
+                GetComponent<Animator>().SetInteger("estado", 2);
+            }
 
-            
 
-            
+
         }
 
         /*if(jumping)
@@ -92,27 +99,96 @@ public class Player : MonoBehaviour {
         sbyte direcao = 1;
         
         
-
+        //direita
         if (Input.GetAxis("Horizontal") > 0.01f)
         {
             direcao = 2;
-            
-            if(GetComponent<Animator>().GetBool("pulando"))
+
+            if (GetComponent<Animator>().GetBool("pulando"))
                 GetComponent<Rigidbody2D>().AddForce(new Vector3(3, 0, 0));
             else
-                transform.position += new Vector3(0.05f, 0, 0);
+            {
+
+
+                if (GetComponent<Animator>().GetBool("movendo"))
+                {
+
+
+                    if (((esquerda && !chao) && !teto) || (teto && esquerda))
+                    {
+                        transform.position -= new Vector3(0, 0.05f, 0);
+                    }
+                    else if (direita && teto)
+                    {
+                        transform.position -= new Vector3(0.05f, 0, 0);
+                    }
+
+                    else if (direita || (direita && chao))
+                    {
+                        transform.position += new Vector3(0, 0.05f, 0);
+                    }
+
+                    else if (teto)
+                    {
+                        transform.position -= new Vector3(0.05f, 0, 0);
+                    }
+                    else
+                    {
+                        transform.position += new Vector3(0.05f, 0, 0);
+                    }
+                }
+
+            }
 
             
-        }
+        }//esquerda
         else if(Input.GetAxis("Horizontal")< -0.01f)
         {
             direcao = -1;
             if (GetComponent<Animator>().GetBool("pulando"))
                 GetComponent<Rigidbody2D>().AddForce(new Vector3(-3, 0, 0));
             else
-                transform.position -= new Vector3(0.05f, 0, 0);
+            {
 
-            
+
+                //if ((esquerda ^= chao) || (direita ^= chao))
+                //{
+                //    transform.position += new Vector3(0, 0.05f, 0);
+                //}
+                //else
+                //{
+
+                //    transform.position -= new Vector3(0.05f, 0, 0);
+                //}
+                if (GetComponent<Animator>().GetBool("movendo"))
+                {
+                    if (((esquerda && chao) || (esquerda && !chao)) && !teto)
+                    {
+                        transform.position += new Vector3(0, 0.05f, 0);
+                    }
+                    else if (direita && chao)
+                    {
+                        transform.position -= new Vector3(0.05f, 0, 0);
+                    }
+                    else if (direita || (teto && direita))
+                    {
+                        transform.position -= new Vector3(0, 0.05f, 0);
+                    }
+                    else if (teto)
+                    {
+                        transform.position += new Vector3(0.05f, 0, 0);
+                    }
+                    else
+                    {
+                        transform.position -= new Vector3(0.05f, 0, 0);
+                    }
+                }
+
+
+
+            }
+
+
         }
 
         
@@ -144,14 +220,135 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Terrain")
+
+        //Debug.Log("enter: "  + collision.gameObject.tag);
+
+        switch (collision.gameObject.tag)
         {
-            GetComponent<Animator>().SetBool("pulando", false);
-            /*GetComponent<BoxCollider2D>().offset = new Vector2(0, 1.887504f);
-            GetComponent<BoxCollider2D>().size = new Vector2(3.15f, 3.529676f);*/
+            case "Terrain":
+                {
+                    GetComponent<Animator>().SetBool("pulando", false);
+                    //direcao = Direcao.chao;
+                    GetComponent<Rigidbody2D>().gravityScale = 1;
+                    chao = true;
+
+                }
+                break;
+
+            case "ParedeEsquerda":
+                {
+
+                    //GetComponent<SpriteRenderer>().flipX = true;
+
+                    //Quaternion target = Quaternion.Euler(tiltAroundX, 0, tiltAroundZ);
+
+
+                    transform.position = new Vector3(-8.877296f, transform.position.y);
+                    
+
+                    transform.rotation = Quaternion.Euler(0, 0, -90);
+
+                    GetComponent<Rigidbody2D>().gravityScale = 0;
+
+                    //direcao = Direcao.esquerda;
+
+                    esquerda = true;
+                    //Debug.Log("Esquerda:" + esquerda);
+                }
+                break;
+            case "ParedeDireita":
+                {
+                    //direcao = Direcao.direita;
+                    //transform.position = new Vector3(8.877299f, transform.position.y);
+                    transform.rotation = Quaternion.Euler(0, 0, 90);
+
+                    GetComponent<Rigidbody2D>().gravityScale = 0;
+                    direita = true;
+                }
+                break;
+            case "Teto":
+                {
+                    teto = true;
+                   
+
+                    transform.rotation = Quaternion.Euler(0, 0, 180);
+                    
+                }
+                break;
+
         }
-        
+
     }
+
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        //Debug.Log("exit: " + collision.gameObject.tag);
+        switch (collision.gameObject.tag)
+        {
+            case "ParedeEsquerda":
+                {
+                    esquerda = false;
+
+                    if (!teto)
+                        GetComponent<Rigidbody2D>().gravityScale = 1;
+
+                    //transform.rotation = Quaternion.Euler(0, 0, 0);
+                    //transform.position += new Vector3(1, 0, 0);
+                }
+                break;
+            case "Terrain":
+                {
+                    chao = false;
+                    //Debug.Log("Chao false");
+                }
+                break;
+            case "Teto":
+                {
+                    teto = false;
+
+                    //if(direita)
+                    //{
+                    //    transform.rotation = Quaternion.Euler(0, 0, 90);
+                    //    GetComponent<Rigidbody2D>().gravityScale = 0;
+                    //}
+                    //else if(esquerda)
+                    //{
+                    //    transform.rotation = Quaternion.Euler(0, 0, -90);
+                    //    GetComponent<Rigidbody2D>().gravityScale = 0;
+                    //}
+                }
+                break;
+            case "ParedeDireita":
+                {
+                    direita = false;
+
+                    if (!teto)
+                        GetComponent<Rigidbody2D>().gravityScale = 1;
+                }
+                break;
+        }
+    }
+
+    //private void OnTriggerStay2D(Collider2D collision)
+    //{
+    //    //Debug.Log("teste");
+    //    switch (collision.tag)
+    //    {
+    //        case "ParedeEsquerda":
+    //            {
+
+    //            }
+    //            break;
+    //        case "Terrain":
+    //            {
+    //                chao = true;
+    //            }
+    //            break;
+    //    }
+    //}
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -164,9 +361,22 @@ public class Player : MonoBehaviour {
             transform.rotation = new Quaternion();
             GetComponent<Animator>().SetBool("pulando", false);
             GetComponent<Animator>().SetInteger("estado", 0);
-            
+            chao = true;
         }
+        //else if (collision.tag == "ParedeEsquerda")
+        //{
+        //    esquerda = true;
+        //    Debug.Log("Enter Esquerda: " + esquerda);
+        //}
+        //else if (collision.tag == "ParedeEsquerda")
+        //{
+        //    chao = true;
+        //}
     }
 
+    public enum Direcao
+    {
+        direita, esquerda, teto, chao
+    }
 
 }

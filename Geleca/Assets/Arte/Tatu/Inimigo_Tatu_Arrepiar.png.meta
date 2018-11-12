@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 00776e0d5ab701946b5dea722f7eb56e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inimigo_Tatu_Arrepiar_0
+    21300002: Inimigo_Tatu_Arrepiar_1
+    21300004: Inimigo_Tatu_Arrepiar_2
+    21300006: Inimigo_Tatu_Arrepiar_3
+    21300008: Inimigo_Tatu_Arrepiar_4
+    21300010: Inimigo_Tatu_Arrepiar_5
+    21300012: Inimigo_Tatu_Arrepiar_6
+    21300014: Inimigo_Tatu_Arrepiar_7
+    21300016: Inimigo_Tatu_Arrepiar_8
+    21300018: Inimigo_Tatu_Arrepiar_9
+    21300020: Inimigo_Tatu_Arrepiar_10
+    21300022: Inimigo_Tatu_Arrepiar_11
+    21300024: Inimigo_Tatu_Arrepiar_12
+    21300026: Inimigo_Tatu_Arrepiar_13
+    21300028: Inimigo_Tatu_Arrepiar_14
+    21300030: Inimigo_Tatu_Arrepiar_15
+    21300032: Inimigo_Tatu_Arrepiar_16
+    21300034: Inimigo_Tatu_Arrepiar_17
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bc8f714476b0a4c88f1e8e3db64efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_1
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212f874bca94af54d907ad46ca1694ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_2
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab1b740509c2434589f8e3d2258a371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_3
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f872bd67dd5d84ca10cd8b83c4d606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_4
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961063312c4de034c900815fca569f80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_5
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 762
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d17724257bf1484db38e3be9e82680f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ead18332c2c04448bc672fa20c774f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_7
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafff2a83b0af8849b653c82954d01ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_8
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af10c6595e7f2e644bf91d48290340be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_9
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3047937cd0f77d34b9a32734b16ec854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_10
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6272bf614dd8c547bde933db8bcce09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_11
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 381
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602a6cd0edde6fc4aa7d80a9d528c79a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13345f97dae5bc847bcfa28b0d48768a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4726871c5971814fa6266cd43792aa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_14
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a292ee2b4afaa4f8b39454fb464c6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_15
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd6e016f5a7a5a4592f174a611dd726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_16
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facb4eaea2d3368428b3a430a8224e7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Arrepiar_17
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 0
+        width: 913
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6349f7a173569741a597d11030a09f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 708ad7ee509f4c14ea4818cb3af7f62a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

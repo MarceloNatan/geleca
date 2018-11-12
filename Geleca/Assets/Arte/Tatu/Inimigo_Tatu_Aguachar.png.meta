@@ -1,0 +1,1107 @@
+fileFormatVersion: 2
+guid: db7f98b1065e3c14ab0905f87a74ed2e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inimigo_Tatu_Aguachar_0
+    21300002: Inimigo_Tatu_Aguachar_1
+    21300004: Inimigo_Tatu_Aguachar_2
+    21300006: Inimigo_Tatu_Aguachar_3
+    21300008: Inimigo_Tatu_Aguachar_4
+    21300010: Inimigo_Tatu_Aguachar_5
+    21300012: Inimigo_Tatu_Aguachar_6
+    21300014: Inimigo_Tatu_Aguachar_7
+    21300016: Inimigo_Tatu_Aguachar_8
+    21300018: Inimigo_Tatu_Aguachar_9
+    21300020: Inimigo_Tatu_Aguachar_10
+    21300022: Inimigo_Tatu_Aguachar_11
+    21300024: Inimigo_Tatu_Aguachar_12
+    21300026: Inimigo_Tatu_Aguachar_13
+    21300028: Inimigo_Tatu_Aguachar_14
+    21300030: Inimigo_Tatu_Aguachar_15
+    21300032: Inimigo_Tatu_Aguachar_16
+    21300034: Inimigo_Tatu_Aguachar_17
+    21300036: Inimigo_Tatu_Aguachar_18
+    21300038: Inimigo_Tatu_Aguachar_19
+    21300040: Inimigo_Tatu_Aguachar_20
+    21300042: Inimigo_Tatu_Aguachar_21
+    21300044: Inimigo_Tatu_Aguachar_22
+    21300046: Inimigo_Tatu_Aguachar_23
+    21300048: Inimigo_Tatu_Aguachar_24
+    21300050: Inimigo_Tatu_Aguachar_25
+    21300052: Inimigo_Tatu_Aguachar_26
+    21300054: Inimigo_Tatu_Aguachar_27
+    21300056: Inimigo_Tatu_Aguachar_28
+    21300058: Inimigo_Tatu_Aguachar_29
+    21300060: Inimigo_Tatu_Aguachar_30
+    21300062: Inimigo_Tatu_Aguachar_31
+    21300064: Inimigo_Tatu_Aguachar_32
+    21300066: Inimigo_Tatu_Aguachar_33
+    21300068: Inimigo_Tatu_Aguachar_34
+    21300070: Inimigo_Tatu_Aguachar_35
+    21300072: Inimigo_Tatu_Aguachar_36
+    21300074: Inimigo_Tatu_Aguachar_37
+    21300076: Inimigo_Tatu_Aguachar_38
+    21300078: Inimigo_Tatu_Aguachar_39
+    21300080: Inimigo_Tatu_Aguachar_40
+    21300082: Inimigo_Tatu_Aguachar_41
+    21300084: Inimigo_Tatu_Aguachar_42
+    21300086: Inimigo_Tatu_Aguachar_43
+    21300088: Inimigo_Tatu_Aguachar_44
+    21300090: Inimigo_Tatu_Aguachar_45
+    21300092: Inimigo_Tatu_Aguachar_46
+    21300094: Inimigo_Tatu_Aguachar_47
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df08c4bf19422a4e9fa12968358e7cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_1
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55dca1333afc7bd4c9fa1d818a82ca1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_2
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72830854ddcf47b4980b8416cb257e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_3
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e364b52a9ed4054f96365156b511c26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_4
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7213b8d2611aafe40904c75220b266ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_5
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 2779
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26a7950c4b75e946a6fe7cf0c24a558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447bccbd9c744644f933ebe9f343df01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_7
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c54e0d7ae3d247b8e46d32d9f89cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_8
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924e076756803ab4e9cfafad15b7d848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_9
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7194d3d1de52feb468ce5a3cbeab683b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_10
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0251945cea1d47ba3b001de79d78a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_11
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 2382
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8359cd6466580444f95bf83632cc44f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ad810e751ca814584705bb221a8fd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2ac9f723f5fd4478dc6d2b38a054c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_14
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b42ff15eec388469d63ae466be9453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_15
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b012c069699f924bb748bff881972d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_16
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590d8c5dc1f011242b63e40dc49ced59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_17
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 1985
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c64b0f2f3a17db42a3f5af95da530bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3126fe1e936374b8a4cf5959f1f29f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_19
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee97fee8eae2c448bcc02f5c9ca6454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_20
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274f60474ac1b7f45ac954b4ac7a0492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_21
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d41c14352cf9458c80a456ae76a30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_22
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729890ba8b583484a8315e5a59d83444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_23
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 1588
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67afb472783e5264ab590a247f375d82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdba0c18b5831bf45a3782fb15a45968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fd8d47260c3174eb9364164a8f767d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_26
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562f4ef290af73644b73b6add0adab87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_27
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ca295ec176994d88ba988661f7300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_28
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6d3f81ff33c1444802f06bf9eabe0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_29
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 1191
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d3f7cd8b4017e40a5502d05364399e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5a3ab7af665644393d053ae9c18b20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_31
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89b8fe0a072f9f40a2220d2855abb27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_32
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59673f93bb5a7b54ba671407b571c249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_33
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f1d3841fa14c84e8a93685f0fd5c62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_34
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e079e2649ad89489315bdf4dd5a592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_35
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 794
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8368a889add1b674dbe557160188ed95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bc35dcdc92ddb479b928209f370432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_37
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e21b2db28af54e84c8cf61bfaab4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_38
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ac2a3756c48234dba120702321a3d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_39
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b49f2e5ee0863d47b0ff48fef64f918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_40
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef56984e8af7c2f409efe80c92f73355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_41
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 397
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9e52d303aa1c4e92fc6ab9a6ac00d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8770e1d67122b84f926adb6c5d34585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_43
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29117225125646f4a9a7a841544e7e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_44
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6c4ac69f807e647a019c400c80b437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_45
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f905c8ebea6bf0b4c95bdabf2666a130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_46
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c3ec3cacd3ad44691195b9c6d35014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Aguachar_47
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 0
+        width: 905
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e146dce5b6640b54b8d878c6c9235129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b7a5e7bdee19cd341bb475451bf1bd72
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

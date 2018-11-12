@@ -1,0 +1,3459 @@
+fileFormatVersion: 2
+guid: 8d987354b145f514e9a279e0b4bdac94
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inimigo_Tatu_Idle_0
+    21300002: Inimigo_Tatu_Idle_1
+    21300004: Inimigo_Tatu_Idle_2
+    21300006: Inimigo_Tatu_Idle_3
+    21300008: Inimigo_Tatu_Idle_4
+    21300010: Inimigo_Tatu_Idle_5
+    21300012: Inimigo_Tatu_Idle_6
+    21300014: Inimigo_Tatu_Idle_7
+    21300016: Inimigo_Tatu_Idle_8
+    21300018: Inimigo_Tatu_Idle_9
+    21300020: Inimigo_Tatu_Idle_10
+    21300022: Inimigo_Tatu_Idle_11
+    21300024: Inimigo_Tatu_Idle_12
+    21300026: Inimigo_Tatu_Idle_13
+    21300028: Inimigo_Tatu_Idle_14
+    21300030: Inimigo_Tatu_Idle_15
+    21300032: Inimigo_Tatu_Idle_16
+    21300034: Inimigo_Tatu_Idle_17
+    21300036: Inimigo_Tatu_Idle_18
+    21300038: Inimigo_Tatu_Idle_19
+    21300040: Inimigo_Tatu_Idle_20
+    21300042: Inimigo_Tatu_Idle_21
+    21300044: Inimigo_Tatu_Idle_22
+    21300046: Inimigo_Tatu_Idle_23
+    21300048: Inimigo_Tatu_Idle_24
+    21300050: Inimigo_Tatu_Idle_25
+    21300052: Inimigo_Tatu_Idle_26
+    21300054: Inimigo_Tatu_Idle_27
+    21300056: Inimigo_Tatu_Idle_28
+    21300058: Inimigo_Tatu_Idle_29
+    21300060: Inimigo_Tatu_Idle_30
+    21300062: Inimigo_Tatu_Idle_31
+    21300064: Inimigo_Tatu_Idle_32
+    21300066: Inimigo_Tatu_Idle_33
+    21300068: Inimigo_Tatu_Idle_34
+    21300070: Inimigo_Tatu_Idle_35
+    21300072: Inimigo_Tatu_Idle_36
+    21300074: Inimigo_Tatu_Idle_37
+    21300076: Inimigo_Tatu_Idle_38
+    21300078: Inimigo_Tatu_Idle_39
+    21300080: Inimigo_Tatu_Idle_40
+    21300082: Inimigo_Tatu_Idle_41
+    21300084: Inimigo_Tatu_Idle_42
+    21300086: Inimigo_Tatu_Idle_43
+    21300088: Inimigo_Tatu_Idle_44
+    21300090: Inimigo_Tatu_Idle_45
+    21300092: Inimigo_Tatu_Idle_46
+    21300094: Inimigo_Tatu_Idle_47
+    21300096: Inimigo_Tatu_Idle_48
+    21300098: Inimigo_Tatu_Idle_49
+    21300100: Inimigo_Tatu_Idle_50
+    21300102: Inimigo_Tatu_Idle_51
+    21300104: Inimigo_Tatu_Idle_52
+    21300106: Inimigo_Tatu_Idle_53
+    21300108: Inimigo_Tatu_Idle_54
+    21300110: Inimigo_Tatu_Idle_55
+    21300112: Inimigo_Tatu_Idle_56
+    21300114: Inimigo_Tatu_Idle_57
+    21300116: Inimigo_Tatu_Idle_58
+    21300118: Inimigo_Tatu_Idle_59
+    21300120: Inimigo_Tatu_Idle_60
+    21300122: Inimigo_Tatu_Idle_61
+    21300124: Inimigo_Tatu_Idle_62
+    21300126: Inimigo_Tatu_Idle_63
+    21300128: Inimigo_Tatu_Idle_64
+    21300130: Inimigo_Tatu_Idle_65
+    21300132: Inimigo_Tatu_Idle_66
+    21300134: Inimigo_Tatu_Idle_67
+    21300136: Inimigo_Tatu_Idle_68
+    21300138: Inimigo_Tatu_Idle_69
+    21300140: Inimigo_Tatu_Idle_70
+    21300142: Inimigo_Tatu_Idle_71
+    21300144: Inimigo_Tatu_Idle_72
+    21300146: Inimigo_Tatu_Idle_73
+    21300148: Inimigo_Tatu_Idle_74
+    21300150: Inimigo_Tatu_Idle_75
+    21300152: Inimigo_Tatu_Idle_76
+    21300154: Inimigo_Tatu_Idle_77
+    21300156: Inimigo_Tatu_Idle_78
+    21300158: Inimigo_Tatu_Idle_79
+    21300160: Inimigo_Tatu_Idle_80
+    21300162: Inimigo_Tatu_Idle_81
+    21300164: Inimigo_Tatu_Idle_82
+    21300166: Inimigo_Tatu_Idle_83
+    21300168: Inimigo_Tatu_Idle_84
+    21300170: Inimigo_Tatu_Idle_85
+    21300172: Inimigo_Tatu_Idle_86
+    21300174: Inimigo_Tatu_Idle_87
+    21300176: Inimigo_Tatu_Idle_88
+    21300178: Inimigo_Tatu_Idle_89
+    21300180: Inimigo_Tatu_Idle_90
+    21300182: Inimigo_Tatu_Idle_91
+    21300184: Inimigo_Tatu_Idle_92
+    21300186: Inimigo_Tatu_Idle_93
+    21300188: Inimigo_Tatu_Idle_94
+    21300190: Inimigo_Tatu_Idle_95
+    21300192: Inimigo_Tatu_Idle_96
+    21300194: Inimigo_Tatu_Idle_97
+    21300196: Inimigo_Tatu_Idle_98
+    21300198: Inimigo_Tatu_Idle_99
+    21300200: Inimigo_Tatu_Idle_100
+    21300202: Inimigo_Tatu_Idle_101
+    21300204: Inimigo_Tatu_Idle_102
+    21300206: Inimigo_Tatu_Idle_103
+    21300208: Inimigo_Tatu_Idle_104
+    21300210: Inimigo_Tatu_Idle_105
+    21300212: Inimigo_Tatu_Idle_106
+    21300214: Inimigo_Tatu_Idle_107
+    21300216: Inimigo_Tatu_Idle_108
+    21300218: Inimigo_Tatu_Idle_109
+    21300220: Inimigo_Tatu_Idle_110
+    21300222: Inimigo_Tatu_Idle_111
+    21300224: Inimigo_Tatu_Idle_112
+    21300226: Inimigo_Tatu_Idle_113
+    21300228: Inimigo_Tatu_Idle_114
+    21300230: Inimigo_Tatu_Idle_115
+    21300232: Inimigo_Tatu_Idle_116
+    21300234: Inimigo_Tatu_Idle_117
+    21300236: Inimigo_Tatu_Idle_118
+    21300238: Inimigo_Tatu_Idle_119
+    21300240: Inimigo_Tatu_Idle_120
+    21300242: Inimigo_Tatu_Idle_121
+    21300244: Inimigo_Tatu_Idle_122
+    21300246: Inimigo_Tatu_Idle_123
+    21300248: Inimigo_Tatu_Idle_124
+    21300250: Inimigo_Tatu_Idle_125
+    21300252: Inimigo_Tatu_Idle_126
+    21300254: Inimigo_Tatu_Idle_127
+    21300256: Inimigo_Tatu_Idle_128
+    21300258: Inimigo_Tatu_Idle_129
+    21300260: Inimigo_Tatu_Idle_130
+    21300262: Inimigo_Tatu_Idle_131
+    21300264: Inimigo_Tatu_Idle_132
+    21300266: Inimigo_Tatu_Idle_133
+    21300268: Inimigo_Tatu_Idle_134
+    21300270: Inimigo_Tatu_Idle_135
+    21300272: Inimigo_Tatu_Idle_136
+    21300274: Inimigo_Tatu_Idle_137
+    21300276: Inimigo_Tatu_Idle_138
+    21300278: Inimigo_Tatu_Idle_139
+    21300280: Inimigo_Tatu_Idle_140
+    21300282: Inimigo_Tatu_Idle_141
+    21300284: Inimigo_Tatu_Idle_142
+    21300286: Inimigo_Tatu_Idle_143
+    21300288: Inimigo_Tatu_Idle_144
+    21300290: Inimigo_Tatu_Idle_145
+    21300292: Inimigo_Tatu_Idle_146
+    21300294: Inimigo_Tatu_Idle_147
+    21300296: Inimigo_Tatu_Idle_148
+    21300298: Inimigo_Tatu_Idle_149
+    21300300: Inimigo_Tatu_Idle_150
+    21300302: Inimigo_Tatu_Idle_151
+    21300304: Inimigo_Tatu_Idle_152
+    21300306: Inimigo_Tatu_Idle_153
+    21300308: Inimigo_Tatu_Idle_154
+    21300310: Inimigo_Tatu_Idle_155
+    21300312: Inimigo_Tatu_Idle_156
+    21300314: Inimigo_Tatu_Idle_157
+    21300316: Inimigo_Tatu_Idle_158
+    21300318: Inimigo_Tatu_Idle_159
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb09d4fac932fc48a3a6c86e3d5f364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7e7a6876c46d84aab8b2fedda1fbfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3c5bfcc104ca34d862ec4feae6f53f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b28a20225bf6d479aaa57d0c9eae40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4050fd30ed76d684097df1572cb33a11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 11570
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfa53103d430924f89dced463af69d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b7efb54197e3540bc948c7990d5809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236614631a6e04348b7776ec6dfaa790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc6a07f52d60c94583edf1cc1fa1dc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40bb74a94df1f644a6bc1bf4e91ba76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1952d9b9bd32e004dae04ecd0ef0fb59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 11125
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee529912e2b8ae74abe4d643ff7fecb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d606410707f4fcc4a950db9096f11f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11161fd349682014895a2145e194aa7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7d8d328c3797a4cbc9c397d9de97d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfad39650d114d46be1ce4641980286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d34214e23a98646ab062a694ae445e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 10680
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a00aacbb5b8a2e4586ee769ef07841b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716a0efc001b534448785b3fbf20c991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_19
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e087e8beb22d1e845849d6c026091ef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_20
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38b3a586338a2d438e30aa8ec7a6f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_21
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7dd9accf011321458572af2c13066ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_22
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6caa63b7ab988a49ae26f8420258386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_23
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 10235
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7a714416e300b4eb8f4aecbe6b68db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd151967678de4eba70637d98afa2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_25
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b531769472c91ab4686fc3b01eda22cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_26
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657d0b5762df8b49a2f214f19d88142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_27
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af94fca69a071d14d9f113a3729302c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_28
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03c99669fbafc46b197b717ad70ef2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_29
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 9790
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b128dccb6b555d84c9c48c54b46df269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ad454607b259d43995808be0a53ed2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_31
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e38440aa8e8a041b93c1a582554881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_32
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602bf1dab4b899a41b83d001886466f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_33
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f546dd2e9a1ddf48ba0fc39075b4bca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_34
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d512bfb986dff4481b108c537123f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_35
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 9345
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6781d39e6a48304698dd02015e129f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640488fc85c9d4f4e94aa5a3b335c040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_37
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cb08d77bef3104bad926248402d983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_38
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e449f9824fce67d42bb79f525513ca3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_39
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba4865b2282ff42809b53c6dd7676d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_40
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22922e159892044c8ab4cf8e2014f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_41
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 8900
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33cb457fe20397499c24a9e38a8a4bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3bbd40940037647bcb86ea13d111a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_43
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680f297cd0d90af44a2839b196607f18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_44
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19b84b5f2b86904fae76e21d28982b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_45
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9b2ab37540af74ba4ef7769c80eaf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_46
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffeeb06d9f38494e986b760ae4c856f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_47
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 8455
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9908dbffa24b847bfac2616491b881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d86a94ea00a544182451790eed9e01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_49
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e164173416dd1d84db7be5145f684553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_50
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a4569a2c6958a488e6ea514550929a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_51
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55c77cfdc467042becefb68b84971c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_52
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb994ea9365b51c4cb5a5ec47ab93669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_53
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 8010
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6864935ec59d0f343af2e43c28b21ef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0268a8eb89ace844ab5ef73667f8ca4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_55
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee9961f9f4b38e47a2f245b87a46e32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_56
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aee129b0a7e66e4ea86c5589ddf7af9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_57
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c0c358dae61714086ca3717e2a30dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_58
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6d536ae68a74e43a2a691a9dfa66ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_59
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 7565
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3552a106ac5ef9640b0914833c4e3f76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd920c8c27d44b74c83e93c21da4b92f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_61
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34058a193a89f1840902ff3df0534e87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_62
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ebeaffa6dbe86419481a58198691ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_63
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc758b74e9dddc4b94691f6a0f1a982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_64
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea67cf67c21fae64ba246b8f1f030051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_65
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 7120
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05a7a85f4fd66c4796158229b1ef605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d86e35a56d624244946bb7069abfe84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_67
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967ef96e5571aa640a5182f14d651a6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_68
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804c64528a277a041a9b9c83d0669a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_69
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b0e548bfd7aea46aeacba60e5b58d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_70
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855aadb6e9589384abeb9d320babdc64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_71
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 6675
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c627577ca9b5bad4f9f5b5edac3bc730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3828015a19a0143aa349899739f147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_73
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006811125898c6e43a9e9b8904420e0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_74
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af55430d734ef2e48b5fb23cb564fd3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_75
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9637ede7da099724ebef279ae438914e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_76
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408679860400b24282d50840601b62a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_77
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 6230
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4543316702a244a8dfafcafb3ad004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e61675b88051684f83be31396a8f19d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_79
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f055d3d70f23a08429123591b6886a23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_80
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a48e38c7667554192e177a83235d44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_81
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d48fcf19cfccd478c68bd5af9d8842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_82
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eb8e2782b329b45b7b4eba9309d574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_83
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 5785
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439fb2c971f3edf48bd169d0f204ccbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5f5688f80cb5744a2dafac4470006f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_85
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2aab4f3b2b4024594a9d81c081c235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_86
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55f485fd14f465439b8ddf6eec44c85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_87
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb163b9bff4cf3428dbf7a16e564e3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_88
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf07c4ac6cae64b84803d66cefaec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_89
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 5340
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ef38e7fe53ed448970a4ceaf354b0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe18693af9c808042ba0e8b2626b841d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_91
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b1323ad1a968449bec41da8e442713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_92
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b441964af5ce75346a5df89651b43ae0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_93
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013737f774c23be458e9868a8b7ae1a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_94
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8991e1a94759f449b6f0343c456e73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_95
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 4895
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f5461382f76214997b5ce022f8508d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733cd1cf9b50b0c4ca66e5a2f9711cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_97
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb8523f5c3e14042ac3a4858b0b9189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_98
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff667190aae08b4dbd650d8396c6043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_99
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c70d0fe85663c4e9904d237b508f05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_100
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1ad881cc388845bcfb924daa9f08f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_101
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 4450
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47bf59741c1a244da103da7aa31098f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc8dd5fbe2bec247831be021088b1fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_103
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a9aadf84842542925e141aa7cb529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_104
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ebc58e9cc0d2045af800be041457f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_105
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5f8a0c011b4b746bf60f82688c2b59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_106
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3165193876296434da8c9901cf0d758a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_107
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 4005
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9d81010fd2dd448bdfbe0c60847879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39cae9f4cca20541b0967114c8e9557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_109
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46508e6f1b223654a9245d9d58d80204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_110
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eca284e345216546b971e0741126331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_111
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa23d23dcf41049aa0aea03e5a8b02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_112
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46246a8491e3a1944a393b140463130d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_113
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 3560
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11522ed0e39ac5349b5ea9ded5c51a69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17246d7d03684d498672e8184a55c24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_115
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d069ce7ee93b3d40972ed1fc23fd40b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_116
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70a66a12c79603429ec2a18154dee6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_117
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d1259e2c2ea7b4ebb33460bcc56229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_118
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2926abc4df10334481fc78bc64a4d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_119
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 3115
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670bfa41b7d784d418824f22ca0b7945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e939e490be531b4481781f68f5d9b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_121
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e09897891979e642940f8717450dea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_122
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512054197dde86541857ff665a03575f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_123
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f58bad87e543f4fbed89d6fbc0251b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_124
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc47fab0a3916d448bb1c0aadd49d28e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_125
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 2670
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c55749ee7e7eb4aa85a473523511e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd282e38868a1cb458dca6b46d04c16c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_127
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c179623f766e93247ab76f9ec203716f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_128
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62ed9bea94c7bd40ade24a1d44bca48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_129
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c7b2f32ac6e6843ae9632617ff8b8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_130
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542f56c0a11121c49af7440b801ab31e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_131
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 2225
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f01e8d311c86ba499327002d738e269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a5513fc8048f4d9645596e36d93cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_133
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a4db09e32a7414eb94a04a476488d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_134
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf04aa4b15d48fb45842534b49e7d35c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_135
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb876617fd9f824ea695a1da00cf144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_136
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0f1768a981c8f4a8feca48e2d47aef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_137
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 1780
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129233cfd13da2c4cb0e8d26ec8ba042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e583e1e1f37d84a4ca216b7eed7c64c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_139
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921427a6348e10748b05bd05e113544e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_140
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e642fd2b288bd4ebf1100808d910f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_141
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14252c16457fc8b409b512d8311c670f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_142
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f60854b2a19c1e4c9272ffcbb36a9fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_143
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 1335
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57260753fcfb044a9e352d79a4f263b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64df9ed02ee66b14080e07cd425bc2fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_145
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104c5f221e34c874eb4559ffe19c67d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_146
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046ba8e003e7c364398e58e221e1e9f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_147
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a7d9d46c676fb449f87451fd6f792d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_148
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e29ca7b7eb3454eb5386b2a2df467a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_149
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 890
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf20befac837347baa514efce036bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e79378ba3a54846891c4d21288eaeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_151
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c827457a0f7894db5ad5b8e4736b00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_152
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1077c5cfa6c173439563db8cea34cb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_153
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78be131c0e4a4414b9c191acf55ca9cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_154
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85e4a090b8b0742878141dd15759d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_155
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 445
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9430ff6ddefe6d4c88f151fb7afcb66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e6c67e0dbb55e4ba9c6b59a0ec879f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_157
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 0
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf4955fa79d6b4459c346aac8d80343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_158
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d633660ec8acc314ca74b0c81617ad60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inimigo_Tatu_Idle_159
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 0
+        width: 981
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24acb87807ef5c646aadfdb6c7cc27cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b76532189eb0cf74982aab1627b5c648
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
