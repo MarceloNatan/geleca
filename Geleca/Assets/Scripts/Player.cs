@@ -17,6 +17,12 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private bool esquerda = false, direita, teto, chao;
 
+    [SerializeField]
+    private GameObject morte;
+
+    [SerializeField]
+    private bool gameOver;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -25,7 +31,9 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        
+
+        if (gameOver)
+            return;
 
         if (Input.GetAxis("Horizontal") > 0.01f)
         {
@@ -95,6 +103,9 @@ public class Player : MonoBehaviour {
 
     private void FixedUpdate()
     {
+
+        if (gameOver)
+            return;
 
         sbyte direcao = 1;
         
@@ -223,6 +234,8 @@ public class Player : MonoBehaviour {
 
         //Debug.Log("enter: "  + collision.gameObject.tag);
 
+        
+
         switch (collision.gameObject.tag)
         {
             case "Terrain":
@@ -273,6 +286,23 @@ public class Player : MonoBehaviour {
 
                     transform.rotation = Quaternion.Euler(0, 0, 180);
                     
+                }
+                break;
+
+            case "BloqueioInimigo":
+            case "DanoInimigo":
+                {
+                    if (gameOver)
+                        return;
+
+                    GameObject m = Instantiate(morte);
+                    m.transform.position = transform.position;
+                    m.transform.rotation = transform.rotation;
+
+                    //Destroy(this.gameObject);
+                    GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+
+                    gameOver = true;
                 }
                 break;
 
