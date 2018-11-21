@@ -7,6 +7,9 @@ public class InimigoBloqueioTiro : MonoBehaviour {
     [SerializeField]
     Animator anim;
 
+    [SerializeField]
+    GameObject explosao;
+
     Vector3 ataque = new Vector3(1.68f, 1.18f, 0);
 
     private void Update()
@@ -39,6 +42,12 @@ public class InimigoBloqueioTiro : MonoBehaviour {
         if (collision.tag == "Tiro")
         {
             Destroy(collision.gameObject);
+
+            GameObject ex = Instantiate(explosao);
+
+            ex.transform.position = collision.transform.position;
+
+            Destroy(ex, 5);
         }
     }
 

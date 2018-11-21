@@ -355,6 +355,22 @@ public class Player : MonoBehaviour {
 
                     if (!teto)
                         GetComponent<Rigidbody2D>().gravityScale = 1;
+                }                
+                break;
+            case "ProjetilInimigo":
+                {
+                    if (gameOver)
+                        return;
+
+                    GameObject m = Instantiate(morte);
+                    m.transform.position = transform.position;
+                    m.transform.rotation = transform.rotation;
+
+                    //Destroy(this.gameObject);
+                    GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+                    Destroy(collision.gameObject, 0);
+
+                    gameOver = true;
                 }
                 break;
         }
@@ -384,7 +400,7 @@ public class Player : MonoBehaviour {
     {
         if(collision.tag == "ProjetilInimigo")
         {
-            Destroy(collision.gameObject,0);
+            //Destroy(collision.gameObject,0);
         }else if(collision.tag == "Terrain")
         {
             //Debug.Log("Colisao com o terreno");

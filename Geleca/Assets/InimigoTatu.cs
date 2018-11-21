@@ -31,8 +31,14 @@ public class InimigoTatu : MonoBehaviour {
 
     Vector2 offset = new Vector2(0.13f, 0.2f);
     Vector2 size = new Vector2(4.1595f, 0.9424f);
-    
 
+    [SerializeField]
+    int atirar = 0;
+
+    [SerializeField]
+    GameObject prefabTiro;
+
+   
 
 
     // Use this for initialization
@@ -86,12 +92,34 @@ public class InimigoTatu : MonoBehaviour {
                     }
                 }
             }
+
+            if (atirar > 100)
+            {
+                atirar = 0;
+
+                int[] direcaoTiro = new int[] { 0, 45, 90, 135, 180, 225, 270, 315 };
+
+                for (int t = 0; t < direcaoTiro.Length; t++)
+                {
+                    GameObject tiro = Instantiate(prefabTiro);
+                    tiro.transform.position = transform.position;
+                    tiro.transform.Rotate(new Vector3(0, 0, direcaoTiro[t]));
+                    Destroy(tiro, 5);
+                }
+
+            }
+            else
+            {
+                atirar++;
+            }
         }
 
         
         if(reiniciarAnimacao)
         {
-            transform.Rotate(new Vector3(0, 0, rodar));      
+            transform.Rotate(new Vector3(0, 0, rodar));  
+            
+            
             
             if(Vector3.Distance(transform.position, position[position.Length - 1].position)>distanciaMinima)
             {
@@ -119,6 +147,7 @@ public class InimigoTatu : MonoBehaviour {
                             rodar = 10;
                             speed = 1;
                             multiplicador = 1;
+                            atirar = 0;
                         }
                         else
                         {
@@ -155,11 +184,13 @@ public class InimigoTatu : MonoBehaviour {
 
         if(collision.tag == "Tiro")
         {
-            if (animator.GetInteger("IdAnimacao") > 4)
+            if (animator.GetInteger("IdAnimacao") != 4)
             {
                 GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, 0.35f);
                 vida -= collision.gameObject.GetComponent<Tiro>().valorDoDano;
             }
+
+            
 
             Destroy(collision.gameObject);
         }

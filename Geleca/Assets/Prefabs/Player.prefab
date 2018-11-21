@@ -139,6 +139,8 @@ MonoBehaviour:
   direita: 0
   teto: 0
   chao: 0
+  morte: {fileID: 1883288708764118, guid: 9fc03399abe0cac4bbbd376e5dd67b77, type: 2}
+  gameOver: 0
 --- !u!212 &212227924736973406
 SpriteRenderer:
   m_ObjectHideFlags: 1

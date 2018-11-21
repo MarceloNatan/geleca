@@ -113,6 +113,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &18325730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1033930535393582, guid: 3b69e1a100412ce47bcd7a2b66a94390,
+    type: 2}
+  m_PrefabInternal: {fileID: 1339556226}
+--- !u!61 &18325731
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 18325730}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -3.214138, y: -0.6428299}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 9.81, y: 4.4500003}
+    newSize: {x: 9.81, y: 4.4500003}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.6015787, y: 2.0764723}
+  m_EdgeRadius: 0
 --- !u!1 &121519655
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,29 +480,26 @@ Prefab:
         type: 2}
       propertyPath: position.Array.data[0]
       value: 
-      objectReference: {fileID: 2020681613}
+      objectReference: {fileID: 1675033304}
     - target: {fileID: 114631860609832156, guid: 3b69e1a100412ce47bcd7a2b66a94390,
         type: 2}
       propertyPath: position.Array.data[1]
       value: 
-      objectReference: {fileID: 1675033304}
+      objectReference: {fileID: 1683679845}
     - target: {fileID: 114631860609832156, guid: 3b69e1a100412ce47bcd7a2b66a94390,
         type: 2}
       propertyPath: position.Array.data[2]
       value: 
-      objectReference: {fileID: 1854631415}
+      objectReference: {fileID: 1675033304}
     - target: {fileID: 114631860609832156, guid: 3b69e1a100412ce47bcd7a2b66a94390,
         type: 2}
       propertyPath: position.Array.data[3]
       value: 
       objectReference: {fileID: 1683679845}
-    - target: {fileID: 4113704672244064, guid: 3b69e1a100412ce47bcd7a2b66a94390, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4113704672244064, guid: 3b69e1a100412ce47bcd7a2b66a94390, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.6
+    - target: {fileID: 61823960479211624, guid: 3b69e1a100412ce47bcd7a2b66a94390,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b69e1a100412ce47bcd7a2b66a94390, type: 2}
@@ -542,7 +569,7 @@ GameObject:
   m_Layer: 0
   m_Name: CantoC
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -570,7 +597,7 @@ GameObject:
   m_Layer: 0
   m_Name: CantoD
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -626,12 +653,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114408758672612200, guid: 150181cf5e2eb84429d682e279c77ed3,
-        type: 2}
-      propertyPath: morte
-      value: 
-      objectReference: {fileID: 1883288708764118, guid: 9fc03399abe0cac4bbbd376e5dd67b77,
-        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 150181cf5e2eb84429d682e279c77ed3, type: 2}
   m_IsPrefabAsset: 0
@@ -646,7 +667,7 @@ GameObject:
   m_Layer: 0
   m_Name: CantoA
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -674,7 +695,7 @@ GameObject:
   m_Layer: 0
   m_Name: CantoB
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

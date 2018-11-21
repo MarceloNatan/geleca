@@ -56,8 +56,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1033930535393582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.43, y: -2.14, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
+  m_LocalPosition: {x: 5.43, y: -2.89, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 4290194154083402}
   m_Father: {fileID: 0}
@@ -206,6 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 95457079858071146}
+  explosao: {fileID: 1645656684960586, guid: 10e4bf73e9b1d38499e6c4d56c5e3ed3, type: 2}
 --- !u!114 &114631860609832156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -229,6 +230,8 @@ MonoBehaviour:
   reiniciarAnimacao: 0
   distanciaMinima: 0.1
   vida: 100
+  atirar: 0
+  prefabTiro: {fileID: 1828009258497114, guid: 96a1ea2c7a6e68b48a082c49c0f37273, type: 2}
 --- !u!212 &212556324098148374
 SpriteRenderer:
   m_ObjectHideFlags: 1
