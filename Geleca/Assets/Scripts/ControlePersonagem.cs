@@ -8,12 +8,12 @@ public class ControlePersonagem : MonoBehaviour {
     //public float velPulo = 7;
     // Use this for initialization
     //direcaoPulo direcao;
-    bool pulo = false;
-    GameObject btnLT;
+    //bool pulo = false;
+   // GameObject btnLT;
     GameObject DirecaoPulo;
 
     void Start () {
-        btnLT = GameObject.Find("LT");
+      //  btnLT = GameObject.Find("LT");
         DirecaoPulo = GameObject.Find("DirecaoPulo");
         DirecaoPulo.SetActive(false);
     }

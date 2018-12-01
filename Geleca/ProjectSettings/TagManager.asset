@@ -13,6 +13,7 @@ TagManager:
   - Teto
   - Chao
   - Tiro
+  - DesabilitaFisica
   layers:
   - Default
   - TransparentFX
