@@ -9,8 +9,8 @@ public class ScriptDeCamera : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
-	}
+        Time.timeScale = 1.3f;
+    }
 	
 	// Update is called once per frame
 	void Update () {
