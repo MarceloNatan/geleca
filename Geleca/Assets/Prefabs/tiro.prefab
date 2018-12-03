@@ -93,7 +93,7 @@ MonoBehaviour:
   speed: 0.25
   moveSpeed: 10
   turnSpeed: 50
-  valorDoDano: 0.5
+  valorDoDano: 1
 --- !u!212 &212824256222935122
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -23,8 +23,10 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private bool gameOver;
 
-	// Use this for initialization
-	void Start () {
+    int vida = 3;
+    // Use this for initialization
+
+    void Start () {
 		
 	}
 	
@@ -292,16 +294,19 @@ public class Player : MonoBehaviour {
             case "BloqueioInimigo":
             case "DanoInimigo":
                 {
+                    vida -= 1;
                     if (gameOver)
                         return;
+                    if (vida < 1)
+                    {
+                        Debug.Log("Morreu");
+                        GameObject m = Instantiate(morte);
+                        m.transform.position = transform.position;
+                        m.transform.rotation = transform.rotation;
 
-                    GameObject m = Instantiate(morte);
-                    m.transform.position = transform.position;
-                    m.transform.rotation = transform.rotation;
-
-                    //Destroy(this.gameObject);
-                    GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
-
+                        //Destroy(this.gameObject);
+                        GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+                    }
                     gameOver = true;
                 }
                 break;

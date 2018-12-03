@@ -16,6 +16,11 @@ public class Robo : MonoBehaviour {
     public float velocidade;
     public bool movimentoDireita = true;
     public Transform detectaCHao;
+
+    private float vida = 5;
+
+
+
     // Use this for initialization
     void Start () {
 		
@@ -37,6 +42,16 @@ public class Robo : MonoBehaviour {
                 movimentoDireita = true;
                     }
         }
+
+        if (vida < 1)
+        {
+            Destroy(this);
+            
+            //Mudar Tela
+
+        }
+
+
     }
     // Update is called once per frame
     void FixedUpdate () {
@@ -55,7 +70,7 @@ public class Robo : MonoBehaviour {
             {
                 GameObject t = Instantiate(projetil, transform.position, new Quaternion(-1,-1,0,0));
                 Destroy(t, 6);
-
+                    
                 countTiro++;
             }
 
@@ -66,4 +81,20 @@ public class Robo : MonoBehaviour {
 
         
 	}
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.tag == "Tiro")
+        {
+
+                GetComponent<SpriteRenderer>().color -= new Color(0, 0, 0, 0.35f);
+                vida -= collision.gameObject.GetComponent<Tiro>().valorDoDano;
+
+            Destroy(collision.gameObject);
+        }
+
+
+
+    }
 }
