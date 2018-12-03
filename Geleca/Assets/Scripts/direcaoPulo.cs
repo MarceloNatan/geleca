@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class direcaoPulo : MonoBehaviour {
+public class direcaoPulo : MonoBehaviour
+{
 
     public Vector3 posicaoMouse;
     public float velocidadeMovi = 0.1f;
@@ -17,13 +18,15 @@ public class direcaoPulo : MonoBehaviour {
 
     // Use this for initialization
 
-    void Start () {
-        
+    void Start()
+    {
 
-	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+
+    }
+
+    // Update is called once per frame
+    void FixedUpdate()
+    {
         float movimentoHorizontal = Input.GetAxis("HorizontalY");
 
         float movimentoVertical = Input.GetAxis("VerticalY");
@@ -38,7 +41,7 @@ public class direcaoPulo : MonoBehaviour {
         //   Vector2 direcao = new Vector2(posicaoMouse.x - transform.position.x , 
         //                               posicaoMouse.y - transform.position.y);
         Vector2 movimentacao = new Vector2(movimentoHorizontal, movimentoVertical);
-        transform.up = movimentacao ;
+        transform.up = movimentacao;
 
 
         //-------------------- Linha de Debug do jogador até o ponteiro do mouse
@@ -49,13 +52,13 @@ public class direcaoPulo : MonoBehaviour {
 
         movimentoHorizontal = movimentoHorizontal < 0 ? movimentoHorizontal * -1 : movimentoHorizontal;
         movimentoVertical = movimentoVertical < 0 ? movimentoVertical * -1 : movimentoVertical;
-        if (countTiro == 0 && (movimentoHorizontal >= 1f || movimentoVertical>=1f) )
+        if (countTiro == 0 && (movimentoHorizontal >= 1f || movimentoVertical >= 1f))
         {
             Vector3 angulos = transform.rotation.eulerAngles;
 
-            Quaternion target = Quaternion.Euler(new Vector3(angulos.x,angulos.y, angulos.z + 85));
+            Quaternion target = Quaternion.Euler(new Vector3(angulos.x, angulos.y, angulos.z + 85));
 
-            GameObject t = Instantiate(projetil, transform.position, target );
+            GameObject t = Instantiate(projetil, transform.position, target);
             t.GetComponent<SpriteRenderer>().sortingOrder = 100;
             //t.transform.rotation = Quaternion.Slerp(t.transform.rotation, target, Time.deltaTime * smooth);
 

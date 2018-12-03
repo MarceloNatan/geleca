@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     //bool jumping = false;
-    
+    public Animator anim;
     [SerializeField]
     private GameObject Tiro;
 
@@ -90,6 +90,13 @@ public class Player : MonoBehaviour
             }
         }
 
+        if (pulando)
+        {
+           
+            GetComponent<Animator>().SetBool("New Bool", true);
+        }
+        else { GetComponent<Animator>().SetBool("New Bool", false); }
+
         //if (!GetComponent<Animator>().GetBool("pulando"))
         //{
         //    GetComponent<SpriteRenderer>().flipX = true;
@@ -100,6 +107,13 @@ public class Player : MonoBehaviour
         //    GetComponent<SpriteRenderer>().flipX = false;
         //    GetComponent<Animator>().SetInteger("estado", 45);
         //}
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 100 )) {
+
+            
+            Debug.Log("Foi precioso");
+            Debug.DrawLine(transform.position, hit.point);
+        }
     }
 
     //if (Input.GetAxis("Fire1") != 0 && !GetComponent<Animator>().GetBool("pulando"))
@@ -212,6 +226,7 @@ public class Player : MonoBehaviour
             girarMenos90();
             if (Input.GetAxis("Vertical") > 0.01f)
             {
+
                 Debug.Log("asdasdasdasd");
                 transform.position += new Vector3(0, .05f, 0);
                 //GetComponent<Rigidbody2D>().velocity = Vector3.zero;
@@ -348,11 +363,13 @@ public class Player : MonoBehaviour
 
         if (Input.GetAxis("Fire1") > 0 && colideParedeEsquerda) // se atiro a partir da parede!
         {
+            transform.rotation = Quaternion.Euler(0, 0, -90);
             GetComponent<Rigidbody2D>().AddForce(new Vector3(500, 0, 0));
             pulando = true;
-
-
+            //GetComponent<Animator>().GetBool = true;
+          
         }
+     
 
 
         if (Input.GetAxis("Fire1") > 0 && colideParedeDireita)

@@ -3,7 +3,10 @@ guid: 5baf6e2b9855cf0449597008daf17135
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PosPlayer: {fileID: 1829809961651588, guid: 150181cf5e2eb84429d682e279c77ed3,
+      type: 2}
+  - projetil: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
