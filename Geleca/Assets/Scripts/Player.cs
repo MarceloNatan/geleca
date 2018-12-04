@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 //using System;
 
 public class Player : MonoBehaviour {
@@ -23,7 +24,10 @@ public class Player : MonoBehaviour {
     [SerializeField]
     private bool gameOver;
 
-    int vida = 3;
+    public float dano = 15;
+
+    public float vida = 3;
+
     // Use this for initialization
 
     void Start () {
@@ -33,7 +37,9 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
+        if (transform.position.y < -8.8f ) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (gameOver)
             return;
 
@@ -294,19 +300,15 @@ public class Player : MonoBehaviour {
             case "BloqueioInimigo":
             case "DanoInimigo":
                 {
-                    vida -= 1;
-                    if (gameOver)
-                        return;
-                    if (vida < 1)
-                    {
-                        Debug.Log("Morreu");
+                   
+                        Debug.Log("Morr4eu");
                         GameObject m = Instantiate(morte);
                         m.transform.position = transform.position;
                         m.transform.rotation = transform.rotation;
 
                         //Destroy(this.gameObject);
                         GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
-                    }
+                    
                     gameOver = true;
                 }
                 break;
@@ -367,15 +369,21 @@ public class Player : MonoBehaviour {
                     if (gameOver)
                         return;
 
-                    GameObject m = Instantiate(morte);
-                    m.transform.position = transform.position;
-                    m.transform.rotation = transform.rotation;
+                    dano -= 1;
 
-                    //Destroy(this.gameObject);
-                    GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
-                    Destroy(collision.gameObject, 0);
+                    //if (vida < 1)
+                    //{
+                    //    Debug.Log(vida + " almost");
+                    //    GameObject m = Instantiate(morte);
+                    //    m.transform.position = transform.position;
+                    //    m.transform.rotation = transform.rotation;
 
-                    gameOver = true;
+                    //    //Destroy(this.gameObject);
+                    //    GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+                    //    Destroy(collision.gameObject, 0);
+
+                    //    gameOver = true;
+                    //}
                 }
                 break;
         }
@@ -397,6 +405,9 @@ public class Player : MonoBehaviour {
     //            }
     //            break;
     //    }
+
+
+
     //}
 
 
@@ -405,8 +416,47 @@ public class Player : MonoBehaviour {
     {
         if(collision.tag == "ProjetilInimigo")
         {
+           
+            dano -= 1;
+            if (dano == 10) {
+                vida -= 1;
+            }if (dano == 5) {
+                vida -= 1;
+            }
+            if (dano == 1) {
+                vida -= 1;
+            }
+            
+
+            if (vida < 1)
+            {
+
+                Debug.Log("Morreu");
+
+                GameObject m = Instantiate(morte);
+                m.transform.position = transform.position;
+                m.transform.rotation = transform.rotation;
+
+                //Destroy(this.gameObject);
+                GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
+                Destroy(collision.gameObject, 0);
+                
+                gameOver = true;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                if (gameOver)
+                    
+                    return;
+
+               
+            }
+            
+        
+        //--------------
+
+        Destroy(collision.gameObject); ;
             //Destroy(collision.gameObject,0);
-        }else if(collision.tag == "Terrain")
+        }
+        else if(collision.tag == "Terrain")
         {
             //Debug.Log("Colisao com o terreno");
             transform.rotation = new Quaternion();
@@ -429,5 +479,7 @@ public class Player : MonoBehaviour {
     {
         direita, esquerda, teto, chao
     }
+
+
 
 }
